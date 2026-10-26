@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Replication of the sparse-exchange lead (DESIGN.md 6.3), same problems and single control in results/main_x.
+# Replication of the sparse-exchange lead (README.md 6.3), same problems and single control in results/main_x.
 # Resumable.
 #   A. s_challenge@4 and its peer-framed twin x_critique@4, seeds 1 and 2 (seed 0 is already done)
 #   B. cadence @8 (~1 exchange per trace), s_challenge, seed 0
