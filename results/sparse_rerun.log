@@ -1,0 +1,8 @@
+== A. sparse exchange s_wait@4,s_challenge@4,s_summary@4,x_critique@4,x_summary@4, seed 0  07:44:56
+31 problems x ['s_wait@4', 's_challenge@4', 's_summary@4', 'x_critique@4', 'x_summary@4'] x seeds [0]: 0 jobs to run (588 done)
+done
+== B. dense conditions x_none,x_summary,x_critique,s_summary,s_challenge, seed 1  07:44:56
+31 problems x ['x_none', 'x_summary', 'x_critique', 's_summary', 's_challenge'] x seeds [1]: 1 jobs to run (588 done)
+[s_summary  s1] test/geometry/880.json         gen= 4497 prompt= 64017 turns=11 forced=0 XX  pred='\\sqrt{290}' gold='2\\sqrt{113}' 93s A=0 B=0 agree=0 ins=11
+done
+== done  07:46:29

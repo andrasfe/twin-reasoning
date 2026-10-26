@@ -1,0 +1,197 @@
+== A. s_challenge@4, x_critique@4, seeds 1,2  08:19:45
+31 problems x ['s_challenge@4', 'x_critique@4'] x seeds [1, 2]: 124 jobs to run (589 done)
+[s_challenge@4 s1] test/algebra/892.json          gen= 5349 prompt= 78367 turns=12 forced=0 OK  pred='2' gold='2' 184s A=1 B=1 agree=1 ins=4
+[s_challenge@4 s2] test/algebra/892.json          gen= 5150 prompt= 76832 turns=12 forced=0 OK  pred='2' gold='2' 213s A=1 B=1 agree=1 ins=4
+[retry 08:23:59 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s1] test/algebra/892.json          gen= 4302 prompt= 59093 turns= 9 forced=0 OK  pred='2' gold='2' 152s A=1 B=1 agree=1 ins=4
+[x_critique@4 s2] test/algebra/892.json          gen= 4939 prompt= 97924 turns=13 forced=0 OK  pred='2' gold='2' 231s A=1 B=1 agree=1 ins=5
+[s_challenge@4 s1] test/geometry/880.json         gen= 5269 prompt= 80657 turns=11 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 230s A=0 B=0 agree=0 ins=4
+[s_challenge@4 s2] test/geometry/880.json         gen= 5279 prompt= 62968 turns=10 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 185s A=0 B=0 agree=1 ins=3
+[retry 08:30:48 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 08:32:01 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s1] test/geometry/880.json         gen= 5350 prompt= 74016 turns= 9 forced=1 XX  pred='13' gold='2\\sqrt{113}' 183s A=0 B=0 agree=0 ins=3
+[retry 08:32:57 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 08:33:02 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s2] test/geometry/880.json         gen= 5537 prompt= 82729 turns=11 forced=1 XX  pred='15' gold='2\\sqrt{113}' 175s A=0 B=0 agree=1 ins=4
+[s_challenge@4 s1] test/precalculus/768.json      gen= 5621 prompt= 67885 turns=10 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 266s A=0 B=0 agree=0 ins=4
+[s_challenge@4 s2] test/precalculus/768.json      gen= 5657 prompt= 68359 turns= 9 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 309s A=0 B=0 agree=0 ins=4
+[retry 08:40:35 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s1] test/precalculus/768.json      gen= 5652 prompt= 60312 turns= 9 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 283s A=0 B=0 agree=0 ins=4
+[x_critique@4 s2] test/precalculus/768.json      gen= 5344 prompt= 52898 turns=10 forced=1 XX  pred='3+2\\sqrt{2}, 3-2\\sqrt{' gold='3 \\pm 2 \\sqrt{2}' 288s A=0 B=0 agree=1 ins=3
+[s_challenge@4 s1] test/algebra/2626.json         gen= 1162 prompt= 11643 turns= 4 forced=0 OK  pred='32348' gold='\\$32,\\!348' 165s A=1 B=1 agree=1 ins=0
+[s_challenge@4 s2] test/algebra/2626.json         gen= 1085 prompt=  8512 turns= 4 forced=0 OK  pred='32348' gold='\\$32,\\!348' 110s A=1 B=1 agree=1 ins=0
+[x_critique@4 s1] test/algebra/2626.json         gen= 1917 prompt= 18989 turns= 5 forced=0 OK  pred='32348' gold='\\$32,\\!348' 188s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/algebra/2626.json         gen= 1713 prompt= 18256 turns= 5 forced=0 OK  pred='32348' gold='\\$32,\\!348' 163s A=1 B=1 agree=1 ins=1
+[s_challenge@4 s2] test/intermediate_algebra/662.json gen= 5605 prompt= 75200 turns=11 forced=1 XX  pred='1 \\pm 2\\sqrt{5}' gold='1 \\pm \\sqrt{19}' 335s A=0 B=0 agree=0 ins=4
+[s_challenge@4 s1] test/intermediate_algebra/662.json gen= 5566 prompt= 96916 turns=14 forced=0 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 389s A=0 B=0 agree=0 ins=5
+[x_critique@4 s1] test/intermediate_algebra/662.json gen= 5563 prompt= 63977 turns=10 forced=1 XX  pred='1 \\pm \\sqrt{2}' gold='1 \\pm \\sqrt{19}' 226s A=0 B=0 agree=0 ins=4
+[watchdog 09:02:37] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 09:03:08 attempt 1] timed out
+[retry 09:03:08 attempt 1] timed out
+[retry 09:03:08 attempt 1] timed out
+[retry 09:03:19 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[watchdog 09:08:23] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 09:08:45 attempt 1] timed out
+[retry 09:08:45 attempt 3] timed out
+[retry 09:08:45 attempt 1] timed out
+[x_critique@4 s2] test/intermediate_algebra/662.json gen= 5469 prompt= 50514 turns=10 forced=1 XX  pred='1 \\pm 3\\sqrt{2}' gold='1 \\pm \\sqrt{19}' 916s A=0 B=0 agree=0 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/1197.json gen= 5583 prompt= 85346 turns=11 forced=1 XX  pred='1' gold='\\frac{3}{56}' 1020s A=0 B=0 agree=1 ins=4
+[s_challenge@4 s2] test/intermediate_algebra/1197.json gen= 5608 prompt= 75699 turns=11 forced=1 OK  pred='3/56' gold='\\frac{3}{56}' 417s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/intermediate_algebra/1197.json gen= 5425 prompt= 62763 turns=10 forced=1 XX  pred='1' gold='\\frac{3}{56}' 234s A=0 B=0 agree=1 ins=4
+[x_critique@4 s2] test/intermediate_algebra/1197.json gen= 5396 prompt= 55670 turns=10 forced=1 XX  pred='1/2' gold='\\frac{3}{56}' 271s A=0 B=1 agree=0 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/558.json gen= 5610 prompt= 84742 turns=12 forced=1 XX  pred='[3, 4]' gold='(3,4]' 395s A=0 B=0 agree=1 ins=4
+[s_challenge@4 s2] test/intermediate_algebra/558.json gen= 5383 prompt= 56911 turns=10 forced=1 OK  pred='3 < \\lambda \\le 4' gold='(3,4]' 305s A=1 B=1 agree=1 ins=3
+[retry 09:27:05 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s1] test/intermediate_algebra/558.json gen= 5422 prompt= 55290 turns=10 forced=1 OK  pred='3 < \\lambda \\le 4' gold='(3,4]' 272s A=1 B=0 agree=0 ins=3
+[x_critique@4 s2] test/intermediate_algebra/558.json gen= 5209 prompt= 36311 turns= 8 forced=1 OK  pred='3 < \\lambda \\le 4' gold='(3,4]' 272s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s1] test/intermediate_algebra/1508.json gen= 4295 prompt= 51859 turns=11 forced=0 OK  pred='-1' gold='-1' 442s A=1 B=0 agree=0 ins=3
+[s_challenge@4 s2] test/intermediate_algebra/1508.json gen= 4887 prompt= 74829 turns=12 forced=0 OK  pred='-1' gold='-1' 461s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/intermediate_algebra/1508.json gen= 3598 prompt= 33568 turns= 7 forced=0 OK  pred='-1' gold='-1' 175s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/intermediate_algebra/1508.json gen= 2471 prompt= 27857 turns= 7 forced=0 OK  pred='-1' gold='-1' 179s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s1] test/intermediate_algebra/1462.json gen= 4982 prompt= 80153 turns=11 forced=0 OK  pred='331' gold='331' 275s A=1 B=1 agree=1 ins=4
+[retry 09:44:02 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s2] test/intermediate_algebra/1462.json gen= 4920 prompt= 77211 turns=11 forced=0 OK  pred='331' gold='331' 224s A=1 B=1 agree=1 ins=4
+[retry 09:45:27 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s1] test/intermediate_algebra/1462.json gen= 4203 prompt= 38968 turns= 9 forced=0 OK  pred='331' gold='331' 110s A=1 B=1 agree=1 ins=3
+[x_critique@4 s2] test/intermediate_algebra/1462.json gen= 3703 prompt= 36890 turns= 9 forced=0 OK  pred='331' gold='331' 100s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/2196.json gen= 4361 prompt= 51767 turns=10 forced=0 XX  pred='\\frac{\\sqrt{3}}{6}' gold='\\frac{1}{4}' 174s A=1 B=0 agree=0 ins=3
+[s_challenge@4 s2] test/intermediate_algebra/2196.json gen= 5250 prompt= 85131 turns=11 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 191s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/intermediate_algebra/2196.json gen= 3700 prompt= 37378 turns= 9 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 96s A=1 B=1 agree=1 ins=3
+[x_critique@4 s2] test/intermediate_algebra/2196.json gen= 3693 prompt= 37326 turns= 8 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 116s A=1 B=1 agree=1 ins=2
+[retry 09:52:27 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s1] test/geometry/711.json         gen= 5597 prompt= 64926 turns=11 forced=1 XX  pred='2\\sqrt{3} + 1' gold='1+2\\sqrt{3}' 201s A=0 B=0 agree=1 ins=4
+[s_challenge@4 s2] test/geometry/711.json         gen= 5453 prompt= 56956 turns=10 forced=1 XX  pred='1 + \\sqrt{3}' gold='1+2\\sqrt{3}' 166s A=0 B=0 agree=1 ins=3
+[x_critique@4 s1] test/geometry/711.json         gen= 5447 prompt= 65946 turns=10 forced=1 XX  pred='1 + \\sqrt{3}' gold='1+2\\sqrt{3}' 146s A=0 B=0 agree=0 ins=4
+[x_critique@4 s2] test/geometry/711.json         gen= 5263 prompt= 49423 turns= 9 forced=1 XX  pred='3 + \\sqrt{2}' gold='1+2\\sqrt{3}' 155s A=0 B=0 agree=0 ins=3
+[s_challenge@4 s1] test/precalculus/323.json      gen= 4674 prompt= 86382 turns=13 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 225s A=1 B=1 agree=1 ins=5
+[s_challenge@4 s2] test/precalculus/323.json      gen= 2937 prompt= 43649 turns=10 forced=0 XX  pred='\\frac{5}{2}x + \\frac{1' gold='y = 2x + 3' 191s A=0 B=1 agree=0 ins=3
+[x_critique@4 s1] test/precalculus/323.json      gen= 3503 prompt= 60292 turns= 9 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 178s A=1 B=1 agree=1 ins=3
+[x_critique@4 s2] test/precalculus/323.json      gen= 4534 prompt=112796 turns=13 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 311s A=1 B=1 agree=1 ins=5
+[s_challenge@4 s1] test/counting_and_probability/188.json gen= 5698 prompt= 81480 turns=13 forced=1 XX  pred='4/9' gold='\\frac{1}{2}' 243s A=0 B=0 agree=0 ins=5
+[retry 10:08:32 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s2] test/counting_and_probability/188.json gen= 5152 prompt=102536 turns=12 forced=0 OK  pred='1/2' gold='\\frac{1}{2}' 241s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/counting_and_probability/188.json gen= 3967 prompt= 52199 turns= 9 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 157s A=1 B=1 agree=1 ins=4
+[x_critique@4 s2] test/counting_and_probability/188.json gen= 4273 prompt= 64586 turns=10 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 133s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/956.json gen= 4263 prompt= 54541 turns=12 forced=0 XX  pred='(6, -18, -1)' gold='(6,31,-1)' 172s A=0 B=0 agree=0 ins=3
+[s_challenge@4 s2] test/intermediate_algebra/956.json gen= 5610 prompt= 56595 turns=12 forced=1 XX  pred='(-15, 85, -49)' gold='(6,31,-1)' 152s A=0 B=0 agree=0 ins=4
+[x_critique@4 s1] test/intermediate_algebra/956.json gen= 5604 prompt= 83971 turns=11 forced=1 OK  pred='6, 31, -1' gold='(6,31,-1)' 148s A=1 B=1 agree=1 ins=4
+[s_challenge@4 s1] test/prealgebra/1044.json      gen= 1349 prompt= 32959 turns= 4 forced=0 OK  pred='5.4' gold='5.4 \\text{ cents}' 80s A=1 B=1 agree=1 ins=0
+[x_critique@4 s2] test/intermediate_algebra/956.json gen= 5575 prompt= 75622 turns=11 forced=1 XX  pred='(-13, 27, -1)' gold='(6,31,-1)' 164s A=0 B=0 agree=0 ins=4
+[x_critique@4 s1] test/prealgebra/1044.json      gen= 2470 prompt= 57010 turns= 7 forced=0 OK  pred='5.4' gold='5.4 \\text{ cents}' 99s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s2] test/prealgebra/1044.json      gen= 2742 prompt= 68165 turns=11 forced=0 OK  pred='5.4' gold='5.4 \\text{ cents}' 152s A=1 B=1 agree=1 ins=1
+[x_critique@4 s2] test/prealgebra/1044.json      gen= 3857 prompt=117867 turns=11 forced=0 OK  pred='5.4' gold='5.4 \\text{ cents}' 186s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/prealgebra/1646.json      gen= 5606 prompt= 71275 turns=10 forced=1 XX  pred='100' gold='80' 169s A=0 B=0 agree=0 ins=4
+[retry 10:24:02 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s2] test/prealgebra/1646.json      gen= 5510 prompt= 80710 turns=12 forced=1 XX  pred='100' gold='80' 177s A=0 B=0 agree=0 ins=4
+[x_critique@4 s1] test/prealgebra/1646.json      gen= 5428 prompt= 93757 turns=11 forced=1 XX  pred='105' gold='80' 175s A=0 B=0 agree=1 ins=4
+[watchdog 10:26:05] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 10:26:42 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique@4 s2] test/prealgebra/1646.json      gen= 5397 prompt= 67646 turns= 9 forced=1 XX  pred='100' gold='80' 167s A=0 B=0 agree=1 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/1930.json gen= 5604 prompt= 64847 turns=11 forced=1 XX  pred='1' gold='\\frac{1}{4}' 188s A=0 B=0 agree=0 ins=4
+[s_challenge@4 s2] test/intermediate_algebra/1930.json gen= 5607 prompt= 64583 turns= 9 forced=1 XX  pred='1/2' gold='\\frac{1}{4}' 134s A=0 B=1 agree=0 ins=4
+[x_critique@4 s1] test/intermediate_algebra/1930.json gen= 5445 prompt= 79775 turns=10 forced=1 XX  pred='0.125' gold='\\frac{1}{4}' 161s A=0 B=1 agree=0 ins=4
+[x_critique@4 s2] test/intermediate_algebra/1930.json gen= 5307 prompt= 60542 turns=10 forced=1 OK  pred='0.25' gold='\\frac{1}{4}' 134s A=1 B=0 agree=0 ins=4
+[s_challenge@4 s1] test/geometry/183.json         gen= 5601 prompt= 89517 turns=11 forced=1 OK  pred='145' gold='145^\\circ' 187s A=1 B=1 agree=1 ins=4
+[s_challenge@4 s2] test/geometry/183.json         gen= 5503 prompt= 87987 turns=11 forced=1 XX  pred='125' gold='145^\\circ' 191s A=0 B=1 agree=0 ins=4
+[x_critique@4 s1] test/geometry/183.json         gen= 5606 prompt= 79936 turns=10 forced=1 OK  pred='145' gold='145^\\circ' 162s A=1 B=1 agree=1 ins=4
+[x_critique@4 s2] test/geometry/183.json         gen= 5463 prompt= 86292 turns=11 forced=1 OK  pred='145' gold='145^\\circ' 173s A=1 B=0 agree=0 ins=4
+[s_challenge@4 s1] test/geometry/826.json         gen= 5459 prompt= 85283 turns=10 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 166s A=0 B=0 agree=1 ins=3
+[s_challenge@4 s2] test/geometry/826.json         gen= 5597 prompt=107061 turns=11 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 227s A=0 B=0 agree=0 ins=4
+[x_critique@4 s1] test/geometry/826.json         gen= 5545 prompt=123947 turns=12 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 231s A=0 B=0 agree=1 ins=4
+[x_critique@4 s2] test/geometry/826.json         gen= 5441 prompt= 98313 turns=10 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 182s A=0 B=0 agree=1 ins=4
+[s_challenge@4 s1] test/prealgebra/1655.json      gen= 2415 prompt= 26450 turns= 7 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 119s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s2] test/prealgebra/1655.json      gen= 2003 prompt= 22286 turns= 6 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 100s A=1 B=1 agree=1 ins=2
+[x_critique@4 s1] test/prealgebra/1655.json      gen= 2180 prompt= 24265 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 86s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/prealgebra/1655.json      gen= 2103 prompt= 20458 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 72s A=1 B=1 agree=1 ins=2
+[retry 10:48:17 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s1] test/geometry/817.json         gen= 5605 prompt= 75312 turns=10 forced=1 XX  pred='7' gold='\\frac{14}{3}' 159s A=0 B=1 agree=0 ins=4
+[s_challenge@4 s2] test/geometry/817.json         gen= 5314 prompt= 43465 turns= 8 forced=1 XX  pred='14/5' gold='\\frac{14}{3}' 124s A=0 B=0 agree=0 ins=2
+[x_critique@4 s1] test/geometry/817.json         gen= 5320 prompt= 48263 turns=10 forced=1 XX  pred='14(\\sqrt{2}-1)' gold='\\frac{14}{3}' 119s A=0 B=0 agree=0 ins=3
+[x_critique@4 s2] test/geometry/817.json         gen= 5467 prompt= 63138 turns=10 forced=1 XX  pred='14(\\sqrt{2}-1)' gold='\\frac{14}{3}' 148s A=0 B=0 agree=1 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/964.json gen= 5721 prompt=116816 turns=13 forced=1 XX  pred='2' gold='1' 252s A=0 B=0 agree=1 ins=6
+[s_challenge@4 s2] test/intermediate_algebra/964.json gen= 5484 prompt=105228 turns=13 forced=1 XX  pred='3' gold='1' 277s A=0 B=1 agree=0 ins=5
+[x_critique@4 s1] test/intermediate_algebra/964.json gen= 5544 prompt=137140 turns=13 forced=1 OK  pred='1' gold='1' 275s A=1 B=1 agree=1 ins=5
+[x_critique@4 s2] test/intermediate_algebra/964.json gen= 5559 prompt=101326 turns=13 forced=0 OK  pred='1' gold='1' 230s A=1 B=1 agree=1 ins=5
+[s_challenge@4 s2] test/geometry/561.json         gen= 5602 prompt= 58619 turns= 9 forced=1 XX  pred='6' gold='\\frac{7}{2}' 164s A=0 B=0 agree=0 ins=4
+[s_challenge@4 s1] test/geometry/561.json         gen= 5519 prompt= 81198 turns=11 forced=1 OK  pred='3.5' gold='\\frac{7}{2}' 218s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/geometry/561.json         gen= 4167 prompt= 52559 turns= 9 forced=0 OK  pred='\\frac{7}{2}' gold='\\frac{7}{2}' 143s A=1 B=1 agree=1 ins=3
+[x_critique@4 s2] test/geometry/561.json         gen= 5383 prompt= 66522 turns=11 forced=1 XX  pred='6 + 4\\sqrt{2}' gold='\\frac{7}{2}' 169s A=0 B=1 agree=0 ins=3
+[s_challenge@4 s2] test/counting_and_probability/765.json gen= 3168 prompt= 40451 turns= 9 forced=0 OK  pred='110' gold='110' 136s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/counting_and_probability/765.json gen= 3141 prompt= 45953 turns= 9 forced=0 OK  pred='110' gold='110' 173s A=1 B=1 agree=1 ins=3
+[x_critique@4 s1] test/counting_and_probability/765.json gen= 2542 prompt= 32569 turns= 6 forced=0 OK  pred='110' gold='110' 116s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/counting_and_probability/765.json gen= 3015 prompt= 43483 turns= 9 forced=0 OK  pred='110' gold='110' 133s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/algebra/1143.json         gen= 2170 prompt= 31481 turns= 7 forced=0 OK  pred='17' gold='17' 155s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s2] test/algebra/1143.json         gen= 2422 prompt= 35226 turns= 7 forced=0 OK  pred='17' gold='17' 146s A=1 B=1 agree=1 ins=2
+[x_critique@4 s1] test/algebra/1143.json         gen= 2321 prompt= 18631 turns= 6 forced=0 OK  pred='17' gold='17' 65s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/algebra/1143.json         gen= 2818 prompt= 27738 turns= 7 forced=0 OK  pred='17' gold='17' 79s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s1] test/intermediate_algebra/2022.json gen= 3140 prompt= 31554 turns= 9 forced=0 XX  pred='2' gold='64' 120s A=1 B=0 agree=0 ins=1
+[s_challenge@4 s2] test/intermediate_algebra/2022.json gen= 5509 prompt= 68352 turns=10 forced=0 OK  pred='64' gold='64' 144s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/intermediate_algebra/2022.json gen= 5383 prompt= 83330 turns=12 forced=0 OK  pred='64' gold='64' 155s A=1 B=1 agree=1 ins=4
+[x_critique@4 s2] test/intermediate_algebra/2022.json gen= 3929 prompt= 67659 turns=11 forced=0 OK  pred='64' gold='64' 196s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/intermediate_algebra/1388.json gen= 4353 prompt= 85361 turns=12 forced=0 XX  pred='-2, 1' gold='1,-2' 247s A=0 B=0 agree=1 ins=3
+[retry 11:22:28 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s2] test/intermediate_algebra/1388.json gen= 3791 prompt= 71977 turns=11 forced=0 XX  pred='-2, 1' gold='1,-2' 233s A=0 B=0 agree=1 ins=3
+[x_critique@4 s1] test/intermediate_algebra/1388.json gen= 2381 prompt= 39546 turns= 7 forced=0 OK  pred='1, -2' gold='1,-2' 107s A=1 B=0 agree=0 ins=2
+[x_critique@4 s2] test/intermediate_algebra/1388.json gen= 2458 prompt= 39533 turns= 7 forced=0 XX  pred='-2, 1' gold='1,-2' 133s A=0 B=0 agree=1 ins=2
+[s_challenge@4 s1] test/geometry/702.json         gen= 3672 prompt= 55861 turns=10 forced=0 XX  pred='70' gold='160' 168s A=0 B=0 agree=1 ins=3
+[s_challenge@4 s2] test/geometry/702.json         gen= 5554 prompt=134745 turns=12 forced=1 OK  pred='160' gold='160' 236s A=1 B=0 agree=0 ins=4
+[x_critique@4 s1] test/geometry/702.json         gen= 5547 prompt=125525 turns=12 forced=1 OK  pred='160' gold='160' 228s A=1 B=1 agree=1 ins=4
+[x_critique@4 s2] test/geometry/702.json         gen= 5400 prompt=102515 turns=12 forced=1 XX  pred='280 - 15\\sqrt{46}' gold='160' 193s A=0 B=1 agree=0 ins=4
+[s_challenge@4 s1] test/precalculus/1202.json     gen= 5479 prompt= 78896 turns=11 forced=1 OK  pred='27' gold='27' 224s A=1 B=1 agree=1 ins=4
+[retry 11:34:59 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@4 s2] test/precalculus/1202.json     gen= 5554 prompt= 68505 turns=10 forced=1 OK  pred='27' gold='27' 164s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/precalculus/1202.json     gen= 4538 prompt= 36815 turns= 8 forced=0 OK  pred='27' gold='27' 104s A=1 B=1 agree=1 ins=2
+[x_critique@4 s2] test/precalculus/1202.json     gen= 4386 prompt= 80157 turns=11 forced=0 OK  pred='27' gold='27' 183s A=1 B=1 agree=1 ins=3
+[s_challenge@4 s1] test/counting_and_probability/181.json gen= 5596 prompt=107499 turns=12 forced=1 OK  pred='19' gold='19' 205s A=1 B=0 agree=0 ins=4
+[s_challenge@4 s2] test/counting_and_probability/181.json gen= 5557 prompt=103528 turns=11 forced=1 OK  pred='19' gold='19' 190s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/counting_and_probability/181.json gen= 5295 prompt= 98090 turns=11 forced=1 XX  pred='24' gold='19' 179s A=0 B=1 agree=0 ins=3
+[x_critique@4 s2] test/counting_and_probability/181.json gen= 5111 prompt=107459 turns=10 forced=0 OK  pred='19' gold='19' 163s A=1 B=1 agree=1 ins=4
+[s_challenge@4 s1] test/intermediate_algebra/158.json gen= 4152 prompt= 64338 turns=10 forced=0 OK  pred='27648' gold='27648' 219s A=1 B=1 agree=1 ins=4
+[x_critique@4 s1] test/intermediate_algebra/158.json gen= 2848 prompt= 34700 turns= 8 forced=0 OK  pred='27648' gold='27648' 105s A=1 B=1 agree=1 ins=2
+[s_challenge@4 s2] test/intermediate_algebra/158.json gen= 3752 prompt= 66374 turns=12 forced=0 OK  pred='27648' gold='27648' 205s A=1 B=1 agree=1 ins=3
+[x_critique@4 s2] test/intermediate_algebra/158.json gen= 3075 prompt= 37327 turns= 8 forced=0 OK  pred='27648' gold='27648' 54s A=1 B=1 agree=1 ins=2
+done
+== B. s_challenge@8, seed 0  11:48:58
+31 problems x ['s_challenge@8'] x seeds [0]: 31 jobs to run (713 done)
+[retry 11:51:30 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@8 s0] test/algebra/892.json          gen= 5106 prompt= 66748 turns=10 forced=0 OK  pred='2' gold='2' 159s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/geometry/880.json         gen= 5302 prompt= 65335 turns=11 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 163s A=0 B=0 agree=1 ins=2
+[s_challenge@8 s0] test/algebra/2626.json         gen= 1110 prompt=  9466 turns= 4 forced=0 OK  pred='32348' gold='\\$32,\\!348' 62s A=1 B=1 agree=1 ins=0
+[retry 11:52:51 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@8 s0] test/precalculus/768.json      gen= 4657 prompt= 61868 turns= 9 forced=0 XX  pred='\\text{no solution}' gold='3 \\pm 2 \\sqrt{2}' 174s A=0 B=0 agree=0 ins=1
+[s_challenge@8 s0] test/intermediate_algebra/662.json gen= 5314 prompt= 60906 turns=10 forced=1 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 148s A=0 B=0 agree=0 ins=2
+[watchdog 11:57:30] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge@8 s0] test/intermediate_algebra/1197.json gen= 4987 prompt= 58938 turns=10 forced=0 OK  pred='3/56' gold='\\frac{3}{56}' 202s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/intermediate_algebra/558.json gen= 4730 prompt= 52118 turns=10 forced=0 OK  pred='(3, 4]' gold='(3,4]' 187s A=1 B=1 agree=0 ins=2
+[s_challenge@8 s0] test/intermediate_algebra/1508.json gen= 3066 prompt= 36568 turns= 6 forced=0 OK  pred='-1' gold='-1' 128s A=1 B=1 agree=1 ins=0
+[s_challenge@8 s0] test/intermediate_algebra/1462.json gen= 2965 prompt= 30502 turns= 7 forced=0 OK  pred='331' gold='331' 128s A=1 B=1 agree=1 ins=0
+[retry 12:02:35 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@8 s0] test/intermediate_algebra/2196.json gen= 4891 prompt= 59225 turns=10 forced=0 OK  pred='1/4' gold='\\frac{1}{4}' 169s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/geometry/711.json         gen= 5307 prompt= 56110 turns=11 forced=1 XX  pred='2\\sqrt{3} + 1' gold='1+2\\sqrt{3}' 160s A=0 B=0 agree=0 ins=2
+[s_challenge@8 s0] test/counting_and_probability/188.json gen= 3648 prompt= 47535 turns=10 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 177s A=1 B=1 agree=1 ins=1
+[s_challenge@8 s0] test/precalculus/323.json      gen= 4902 prompt= 75598 turns=14 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 202s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/prealgebra/1044.json      gen= 1555 prompt= 28067 turns= 5 forced=0 OK  pred='5.4' gold='5.4 \\text{ cents}' 61s A=1 B=1 agree=1 ins=0
+[watchdog 12:07:45] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge@8 s0] test/intermediate_algebra/956.json gen= 4901 prompt= 64551 turns=11 forced=0 OK  pred='(6, 31, -1)' gold='(6,31,-1)' 184s A=1 B=1 agree=0 ins=2
+[watchdog 12:09:10] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge@8 s0] test/prealgebra/1646.json      gen= 5291 prompt= 92153 turns=11 forced=1 XX  pred='130' gold='80' 221s A=0 B=0 agree=1 ins=2
+[retry 12:11:52 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@8 s0] test/intermediate_algebra/1930.json gen= 5309 prompt= 66395 turns=11 forced=1 OK  pred='0.25' gold='\\frac{1}{4}' 179s A=1 B=0 agree=0 ins=2
+[s_challenge@8 s0] test/geometry/183.json         gen= 5308 prompt= 79854 turns=13 forced=1 OK  pred='145' gold='145^\\circ' 198s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/geometry/826.json         gen= 5296 prompt= 68152 turns=10 forced=1 XX  pred='1' gold='1\\frac{4}{5}' 160s A=0 B=0 agree=0 ins=2
+[s_challenge@8 s0] test/prealgebra/1655.json      gen= 1896 prompt= 14136 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 71s A=1 B=1 agree=1 ins=0
+[retry 12:16:45 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge@8 s0] test/geometry/817.json         gen= 5318 prompt= 50200 turns=12 forced=1 XX  pred='14(2-\\sqrt{2})' gold='\\frac{14}{3}' 176s A=0 B=0 agree=0 ins=2
+[s_challenge@8 s0] test/intermediate_algebra/964.json gen= 5274 prompt= 78282 turns=13 forced=1 XX  pred='2' gold='1' 183s A=0 B=0 agree=1 ins=2
+[s_challenge@8 s0] test/geometry/561.json         gen= 5308 prompt= 75782 turns=13 forced=1 OK  pred='3.5' gold='\\frac{7}{2}' 227s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/counting_and_probability/765.json gen= 3194 prompt= 54234 turns= 9 forced=0 OK  pred='110' gold='110' 226s A=1 B=1 agree=1 ins=1
+[s_challenge@8 s0] test/algebra/1143.json         gen= 2343 prompt= 20121 turns= 7 forced=0 OK  pred='17' gold='17' 108s A=1 B=1 agree=1 ins=0
+[s_challenge@8 s0] test/intermediate_algebra/2022.json gen= 4246 prompt= 48901 turns=11 forced=0 OK  pred='64' gold='64' 166s A=1 B=1 agree=1 ins=1
+[s_challenge@8 s0] test/intermediate_algebra/1388.json gen= 2853 prompt= 38069 turns= 8 forced=0 XX  pred='-2, 1' gold='1,-2' 120s A=0 B=0 agree=1 ins=0
+[s_challenge@8 s0] test/precalculus/1202.json     gen= 4782 prompt= 53023 turns= 9 forced=0 OK  pred='27' gold='27' 177s A=1 B=1 agree=1 ins=1
+[s_challenge@8 s0] test/geometry/702.json         gen= 5308 prompt=128287 turns=13 forced=1 OK  pred='160' gold='160' 250s A=1 B=1 agree=1 ins=2
+[s_challenge@8 s0] test/counting_and_probability/181.json gen= 4727 prompt= 90099 turns=11 forced=0 OK  pred='19' gold='19' 163s A=0 B=1 agree=0 ins=2
+[watchdog 12:31:05] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge@8 s0] test/intermediate_algebra/158.json gen= 3738 prompt= 62636 turns=10 forced=0 OK  pred='27648' gold='27648' 171s A=1 B=1 agree=1 ins=2
+done
+== done  12:31:59

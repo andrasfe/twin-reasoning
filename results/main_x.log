@@ -1,0 +1,595 @@
+== 1. screen: single x 3 seeds on 80 level-5 problems  18:13:04
+80 problems x ['single'] x seeds [0, 1, 2]: 240 jobs to run (0 done)
+[single     s0] test/number_theory/1090.json   gen= 1246 prompt=    94 turns= 1 forced=0 OK  pred='202' gold='202' 26s 
+[single     s1] test/intermediate_algebra/183.json gen= 1776 prompt=    94 turns= 1 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 38s 
+[single     s0] test/intermediate_algebra/183.json gen= 2431 prompt=    94 turns= 1 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 52s 
+[single     s1] test/number_theory/1090.json   gen= 1197 prompt=    94 turns= 1 forced=0 OK  pred='202' gold='202' 26s 
+[single     s2] test/intermediate_algebra/183.json gen= 2509 prompt=  2711 turns= 1 forced=1 OK  pred='(2, \\infty) ' gold='(2,\\infty)' 54s 
+[single     s2] test/number_theory/1090.json   gen= 1155 prompt=    94 turns= 1 forced=0 OK  pred='202' gold='202' 25s 
+[single     s1] test/algebra/2043.json         gen=  699 prompt=    75 turns= 1 forced=0 OK  pred='(-\\infty, 2) \\cup (3, ' gold='(-\\infty, 2) \\cup (3, ' 15s 
+[single     s0] test/algebra/2043.json         gen=  754 prompt=    75 turns= 1 forced=0 OK  pred='(-\\infty, 2) \\cup (3, ' gold='(-\\infty, 2) \\cup (3, ' 17s 
+[single     s2] test/algebra/2043.json         gen=  759 prompt=    75 turns= 1 forced=0 OK  pred='(-\\infty, 2) \\cup (3, ' gold='(-\\infty, 2) \\cup (3, ' 16s 
+[single     s0] test/precalculus/703.json      gen= 1335 prompt=   123 turns= 1 forced=0 OK  pred='8\\pi' gold='8 \\pi' 28s 
+[single     s1] test/precalculus/703.json      gen= 1600 prompt=   123 turns= 1 forced=0 OK  pred='8\\pi' gold='8 \\pi' 34s 
+[single     s2] test/precalculus/703.json      gen= 1562 prompt=   123 turns= 1 forced=0 OK  pred='8\\pi' gold='8 \\pi' 33s 
+[single     s0] test/intermediate_algebra/158.json gen= 1525 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 32s 
+[single     s0] test/prealgebra/1297.json      gen=  818 prompt=   110 turns= 1 forced=0 OK  pred='9' gold='9' 17s 
+[single     s1] test/intermediate_algebra/158.json gen= 1313 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 28s 
+[single     s1] test/prealgebra/1297.json      gen=  797 prompt=   110 turns= 1 forced=0 OK  pred='9' gold='9' 17s 
+[single     s2] test/intermediate_algebra/158.json gen= 1445 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 31s 
+[single     s2] test/prealgebra/1297.json      gen=  629 prompt=   110 turns= 1 forced=0 OK  pred='9' gold='9' 14s 
+[single     s1] test/number_theory/737.json    gen=  966 prompt=   111 turns= 1 forced=0 OK  pred='284' gold='284' 21s 
+[single     s0] test/number_theory/737.json    gen=  992 prompt=   111 turns= 1 forced=0 OK  pred='284' gold='284' 21s 
+[single     s2] test/number_theory/737.json    gen= 1013 prompt=   111 turns= 1 forced=0 OK  pred='284' gold='284' 21s 
+[single     s0] test/prealgebra/1640.json      gen= 1060 prompt=    76 turns= 1 forced=0 OK  pred='32' gold='32' 22s 
+[single     s2] test/prealgebra/1640.json      gen= 1005 prompt=    76 turns= 1 forced=0 OK  pred='32' gold='32' 21s 
+[single     s1] test/prealgebra/1640.json      gen= 1100 prompt=    76 turns= 1 forced=0 OK  pred='32' gold='32' 24s 
+[single     s0] test/number_theory/838.json    gen= 1739 prompt=   105 turns= 1 forced=0 OK  pred='6' gold='6' 37s 
+[single     s1] test/number_theory/838.json    gen= 1786 prompt=   105 turns= 1 forced=0 OK  pred='6' gold='6' 38s 
+[single     s2] test/number_theory/838.json    gen= 1684 prompt=   105 turns= 1 forced=0 OK  pred='6' gold='6' 36s 
+[single     s0] test/intermediate_algebra/1354.json gen= 2508 prompt=  2743 turns= 1 forced=1 OK  pred='1997/2' gold='\\frac{1997}{2}' 54s 
+[single     s1] test/intermediate_algebra/1354.json gen= 1831 prompt=   110 turns= 1 forced=0 OK  pred='\\frac{1997}{2}' gold='\\frac{1997}{2}' 40s 
+[single     s2] test/intermediate_algebra/1354.json gen= 2358 prompt=   110 turns= 1 forced=0 OK  pred='\\frac{1997}{2}' gold='\\frac{1997}{2}' 52s 
+[single     s0] test/intermediate_algebra/1462.json gen= 2294 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 50s 
+[single     s1] test/intermediate_algebra/1462.json gen= 1523 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 33s 
+[single     s2] test/intermediate_algebra/1462.json gen= 1423 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 31s 
+[single     s0] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 54s 
+[single     s1] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 55s 
+[single     s2] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 55s 
+[single     s0] test/intermediate_algebra/1806.json gen= 2506 prompt=  2689 turns= 1 forced=1 OK  pred='3.25' gold='\\frac{13}{4}' 55s 
+[single     s0] test/prealgebra/951.json       gen=  702 prompt=    70 turns= 1 forced=0 OK  pred='12' gold='12' 16s 
+[single     s1] test/prealgebra/951.json       gen=  534 prompt=    70 turns= 1 forced=0 OK  pred='12' gold='12' 12s 
+[single     s2] test/prealgebra/951.json       gen=  720 prompt=    70 turns= 1 forced=0 OK  pred='12' gold='12' 16s 
+[single     s0] test/algebra/1282.json         gen= 1104 prompt=    64 turns= 1 forced=0 OK  pred='11' gold='11' 24s 
+[single     s2] test/intermediate_algebra/1806.json gen= 2336 prompt=    83 turns= 1 forced=0 OK  pred='\\frac{13}{4}' gold='\\frac{13}{4}' 52s 
+[single     s1] test/intermediate_algebra/1806.json gen= 2506 prompt=  2689 turns= 1 forced=1 OK  pred='3.25' gold='\\frac{13}{4}' 56s 
+[single     s1] test/algebra/1282.json         gen= 1093 prompt=    64 turns= 1 forced=0 OK  pred='11' gold='11' 24s 
+[single     s2] test/algebra/1282.json         gen= 1126 prompt=    64 turns= 1 forced=0 OK  pred='11' gold='11' 24s 
+[single     s1] test/algebra/686.json          gen= 1244 prompt=    95 turns= 1 forced=0 OK  pred='4' gold='4' 26s 
+[single     s0] test/algebra/686.json          gen= 1291 prompt=    95 turns= 1 forced=0 OK  pred='4' gold='4' 28s 
+[single     s1] test/prealgebra/1961.json      gen=  508 prompt=   121 turns= 1 forced=0 OK  pred='\\frac{16}{27}' gold='\\frac{16}{27}' 11s 
+[single     s0] test/prealgebra/1961.json      gen=  719 prompt=   121 turns= 1 forced=0 OK  pred='\\frac{16}{27}' gold='\\frac{16}{27}' 16s 
+[single     s2] test/prealgebra/1961.json      gen=  533 prompt=   121 turns= 1 forced=0 OK  pred='\\frac{16}{27}' gold='\\frac{16}{27}' 12s 
+[single     s2] test/algebra/686.json          gen= 1713 prompt=    95 turns= 1 forced=0 OK  pred='4' gold='4' 37s 
+[single     s0] test/algebra/2626.json         gen=  500 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 10s 
+[single     s1] test/algebra/2193.json         gen=  773 prompt=    68 turns= 1 forced=0 OK  pred='5' gold='x=5' 17s 
+[single     s0] test/algebra/2193.json         gen=  859 prompt=    68 turns= 1 forced=0 OK  pred='5' gold='x=5' 19s 
+[single     s2] test/algebra/2193.json         gen=  806 prompt=    68 turns= 1 forced=0 OK  pred='5' gold='x=5' 17s 
+[single     s2] test/algebra/2626.json         gen=  555 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 12s 
+[single     s1] test/algebra/2626.json         gen=  583 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 13s 
+[single     s0] test/geometry/183.json         gen= 2505 prompt=  3033 turns= 1 forced=1 OK  pred='145' gold='145^\\circ' 55s 
+[single     s1] test/geometry/183.json         gen= 2505 prompt=  3033 turns= 1 forced=1 OK  pred='145' gold='145^\\circ' 55s 
+[single     s2] test/geometry/183.json         gen= 2505 prompt=  3033 turns= 1 forced=1 XX  pred='125' gold='145^\\circ' 56s 
+[single     s0] test/geometry/711.json         gen= 2508 prompt=  2710 turns= 1 forced=1 XX  pred='2 + \\sqrt{3}' gold='1+2\\sqrt{3}' 56s 
+[single     s1] test/algebra/291.json          gen= 1188 prompt=   118 turns= 1 forced=0 OK  pred='\\frac{2}{3}' gold='\\frac{2}{3}' 25s 
+[single     s0] test/algebra/291.json          gen= 1478 prompt=   118 turns= 1 forced=0 OK  pred='\\frac{2}{3}' gold='\\frac{2}{3}' 32s 
+[single     s1] test/geometry/711.json         gen= 2508 prompt=  2711 turns= 1 forced=1 XX  pred='1 + \\sqrt{3}' gold='1+2\\sqrt{3}' 55s 
+[single     s2] test/geometry/711.json         gen= 2508 prompt=  2711 turns= 1 forced=1 XX  pred='1 + \\sqrt{3}' gold='1+2\\sqrt{3}' 55s 
+[single     s0] test/prealgebra/1251.json      gen=  815 prompt=    72 turns= 1 forced=0 OK  pred='8' gold='8' 18s 
+[single     s2] test/algebra/291.json          gen= 1200 prompt=   118 turns= 1 forced=0 OK  pred='\\frac{2}{3}' gold='\\frac{2}{3}' 27s 
+[single     s2] test/prealgebra/1251.json      gen=  773 prompt=    72 turns= 1 forced=0 OK  pred='8' gold='8' 17s 
+[single     s1] test/prealgebra/1251.json      gen=  874 prompt=    72 turns= 1 forced=0 OK  pred='8' gold='8' 19s 
+[single     s0] test/number_theory/820.json    gen= 1337 prompt=    96 turns= 1 forced=0 OK  pred='8' gold='8' 28s 
+[single     s1] test/number_theory/820.json    gen= 1309 prompt=    96 turns= 1 forced=0 OK  pred='8' gold='8' 28s 
+[single     s0] test/prealgebra/1930.json      gen= 1098 prompt=   291 turns= 1 forced=0 OK  pred='7' gold='7' 23s 
+[single     s2] test/number_theory/820.json    gen= 1692 prompt=    96 turns= 1 forced=0 OK  pred='8' gold='8' 36s 
+[single     s1] test/prealgebra/1930.json      gen= 1663 prompt=   291 turns= 1 forced=0 OK  pred='7' gold='7' 36s 
+[single     s2] test/prealgebra/1930.json      gen= 1632 prompt=   291 turns= 1 forced=0 OK  pred='7' gold='7' 35s 
+[single     s0] test/prealgebra/1423.json      gen=  443 prompt=    83 turns= 1 forced=0 OK  pred='12\\pi' gold='12\\pi' 10s 
+[single     s1] test/prealgebra/1423.json      gen=  372 prompt=    83 turns= 1 forced=0 OK  pred='12\\pi' gold='12\\pi' 8s 
+[single     s0] test/intermediate_algebra/662.json gen= 2518 prompt=  2819 turns= 1 forced=1 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 55s 
+[single     s2] test/prealgebra/1423.json      gen=  418 prompt=    83 turns= 1 forced=0 OK  pred='12\\pi' gold='12\\pi' 10s 
+[single     s1] test/intermediate_algebra/662.json gen= 2440 prompt=   148 turns= 1 forced=0 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 54s 
+[single     s0] test/number_theory/427.json    gen= 1074 prompt=    73 turns= 1 forced=0 OK  pred='25' gold='25' 24s 
+[single     s1] test/number_theory/427.json    gen= 1117 prompt=    73 turns= 1 forced=0 OK  pred='25' gold='25' 25s 
+[single     s2] test/intermediate_algebra/662.json gen= 2518 prompt=  2819 turns= 1 forced=1 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 57s 
+[single     s2] test/number_theory/427.json    gen= 1220 prompt=    73 turns= 1 forced=0 OK  pred='25' gold='25' 27s 
+[single     s0] test/counting_and_probability/216.json gen=  929 prompt=    77 turns= 1 forced=0 OK  pred='1940' gold='1940' 20s 
+[single     s1] test/counting_and_probability/216.json gen= 1290 prompt=    77 turns= 1 forced=0 OK  pred='1940' gold='1940' 28s 
+[single     s0] test/algebra/1078.json         gen=  906 prompt=    74 turns= 1 forced=0 OK  pred='(-\\sqrt{3}, \\sqrt{3})' gold='(-\\sqrt{3}, \\sqrt{3})' 19s 
+[single     s2] test/counting_and_probability/216.json gen= 1259 prompt=    77 turns= 1 forced=0 OK  pred='1940' gold='1940' 27s 
+[single     s1] test/algebra/1078.json         gen=  833 prompt=    74 turns= 1 forced=0 OK  pred='(-\\sqrt{3}, \\sqrt{3})' gold='(-\\sqrt{3}, \\sqrt{3})' 18s 
+[single     s0] test/counting_and_probability/51.json gen=  703 prompt=    70 turns= 1 forced=0 OK  pred='\\frac{13}{18}' gold='\\frac{13}{18}' 15s 
+[single     s2] test/algebra/1078.json         gen=  858 prompt=    74 turns= 1 forced=0 OK  pred='(-\\sqrt{3}, \\sqrt{3})' gold='(-\\sqrt{3}, \\sqrt{3})' 18s 
+[single     s1] test/counting_and_probability/51.json gen= 1008 prompt=    70 turns= 1 forced=0 OK  pred='\\frac{13}{18}' gold='\\frac{13}{18}' 21s 
+[single     s2] test/counting_and_probability/51.json gen=  780 prompt=    70 turns= 1 forced=0 OK  pred='\\frac{13}{18}' gold='\\frac{13}{18}' 17s 
+[single     s0] test/geometry/965.json         gen= 1328 prompt=   117 turns= 1 forced=0 OK  pred='28' gold='28' 28s 
+[single     s2] test/geometry/965.json         gen= 1746 prompt=   117 turns= 1 forced=0 OK  pred='28' gold='28' 37s 
+[single     s1] test/geometry/965.json         gen= 2108 prompt=   117 turns= 1 forced=0 OK  pred='28' gold='28' 45s 
+[single     s0] test/geometry/702.json         gen= 2504 prompt=  3591 turns= 1 forced=1 XX  pred='10' gold='160' 55s 
+[single     s0] test/precalculus/990.json      gen=  845 prompt=   231 turns= 1 forced=0 OK  pred='6 - 5i' gold='6 - 5i' 19s 
+[single     s1] test/geometry/702.json         gen= 2252 prompt=   534 turns= 1 forced=0 OK  pred='160' gold='160' 50s 
+[single     s1] test/precalculus/990.json      gen=  757 prompt=   231 turns= 1 forced=0 OK  pred='6 - 5i' gold='6 - 5i' 17s 
+[single     s2] test/precalculus/990.json      gen=  949 prompt=   231 turns= 1 forced=0 OK  pred='6 - 5i' gold='6 - 5i' 21s 
+[single     s2] test/geometry/702.json         gen= 2206 prompt=   534 turns= 1 forced=0 OK  pred='160' gold='160' 50s 
+[single     s1] test/algebra/509.json          gen= 1032 prompt=    92 turns= 1 forced=0 OK  pred='\\dfrac{13}{6}' gold='\\frac{13}{6}' 23s 
+[single     s0] test/algebra/509.json          gen= 1163 prompt=    92 turns= 1 forced=0 OK  pred='\\dfrac{13}{6}' gold='\\frac{13}{6}' 26s 
+[single     s2] test/algebra/509.json          gen= 1034 prompt=    92 turns= 1 forced=0 OK  pred='\\dfrac{13}{6}' gold='\\frac{13}{6}' 23s 
+[single     s0] test/precalculus/675.json      gen= 1458 prompt=   145 turns= 1 forced=0 OK  pred='4' gold='4' 31s 
+[single     s1] test/precalculus/675.json      gen= 1356 prompt=   145 turns= 1 forced=0 OK  pred='4' gold='4' 29s 
+[single     s2] test/precalculus/675.json      gen= 1364 prompt=   145 turns= 1 forced=0 OK  pred='4' gold='4' 29s 
+[single     s0] test/algebra/1796.json         gen=  535 prompt=    75 turns= 1 forced=0 OK  pred='2\\sqrt{5}' gold='2\\sqrt{5}' 11s 
+[single     s1] test/algebra/1796.json         gen=  534 prompt=    75 turns= 1 forced=0 OK  pred='2\\sqrt{5}' gold='2\\sqrt{5}' 12s 
+[single     s0] test/intermediate_algebra/1197.json gen= 2503 prompt=  2721 turns= 1 forced=1 XX  pred='1' gold='\\frac{3}{56}' 55s 
+[single     s2] test/algebra/1796.json         gen=  522 prompt=    75 turns= 1 forced=0 OK  pred='2\\sqrt{5}' gold='2\\sqrt{5}' 12s 
+[single     s1] test/intermediate_algebra/1197.json gen= 2506 prompt=  2721 turns= 1 forced=1 OK  pred='3/56' gold='\\frac{3}{56}' 56s 
+[single     s2] test/intermediate_algebra/1197.json gen= 2238 prompt=    99 turns= 1 forced=0 OK  pred='\\frac{3}{56}' gold='\\frac{3}{56}' 50s 
+[single     s0] test/algebra/2277.json         gen=  977 prompt=   131 turns= 1 forced=0 OK  pred='0' gold='0' 22s 
+[single     s1] test/algebra/2277.json         gen= 1635 prompt=   131 turns= 1 forced=0 OK  pred='0' gold='0' 36s 
+[single     s2] test/algebra/2277.json         gen= 1442 prompt=   131 turns= 1 forced=0 OK  pred='0' gold='0' 31s 
+[single     s0] test/precalculus/768.json      gen= 1931 prompt=   100 turns= 1 forced=0 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 42s 
+[single     s1] test/precalculus/768.json      gen= 2326 prompt=   100 turns= 1 forced=0 XX  pred='-3 - 2\\sqrt{2}, -3 + 2' gold='3 \\pm 2 \\sqrt{2}' 50s 
+[single     s2] test/precalculus/768.json      gen= 2025 prompt=   100 turns= 1 forced=0 XX  pred='3+2\\sqrt{2}, 3-2\\sqrt{' gold='3 \\pm 2 \\sqrt{2}' 44s 
+[single     s0] test/intermediate_algebra/2196.json gen= 2126 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 47s 
+[single     s1] test/intermediate_algebra/2196.json gen= 1944 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 43s 
+[single     s2] test/intermediate_algebra/2196.json gen= 1723 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 38s 
+[single     s0] test/intermediate_algebra/956.json gen= 2510 prompt=  2703 turns= 1 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 55s 
+[single     s0] test/precalculus/323.json      gen= 1723 prompt=   162 turns= 1 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 38s 
+[single     s1] test/intermediate_algebra/956.json gen= 2510 prompt=  2703 turns= 1 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 56s 
+[single     s2] test/intermediate_algebra/956.json gen= 2510 prompt=  2703 turns= 1 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 56s 
+[single     s1] test/precalculus/323.json      gen= 1299 prompt=   162 turns= 1 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 29s 
+[single     s2] test/precalculus/323.json      gen= 2151 prompt=   162 turns= 1 forced=0 XX  pred='y = -\\frac{5}{14}x + \\' gold='y = 2x + 3' 47s 
+[single     s1] test/algebra/892.json          gen= 2115 prompt=   132 turns= 1 forced=0 OK  pred='2' gold='2' 46s 
+[single     s0] test/algebra/892.json          gen= 2503 prompt=  2787 turns= 1 forced=1 XX  pred='a' gold='2' 56s 
+[single     s0] test/prealgebra/1044.json      gen=  688 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 16s 
+[single     s1] test/prealgebra/1044.json      gen=  703 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 16s 
+[single     s2] test/algebra/892.json          gen= 2371 prompt=   132 turns= 1 forced=0 OK  pred='2' gold='2' 53s 
+[single     s2] test/prealgebra/1044.json      gen=  748 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 17s 
+[single     s0] test/algebra/1031.json         gen=  541 prompt=    78 turns= 1 forced=0 OK  pred='5.5' gold='\\frac{11}{2}' 12s 
+[single     s1] test/algebra/1031.json         gen=  726 prompt=    78 turns= 1 forced=0 OK  pred='\\frac{11}{2}' gold='\\frac{11}{2}' 16s 
+[single     s2] test/algebra/1031.json         gen=  740 prompt=    78 turns= 1 forced=0 OK  pred='5.5' gold='\\frac{11}{2}' 16s 
+[single     s0] test/algebra/1837.json         gen= 1124 prompt=   167 turns= 1 forced=0 OK  pred='5' gold='5' 24s 
+[single     s1] test/algebra/1837.json         gen= 1068 prompt=   167 turns= 1 forced=0 OK  pred='5' gold='5' 23s 
+[single     s2] test/algebra/1837.json         gen= 1007 prompt=   167 turns= 1 forced=0 OK  pred='5' gold='5' 22s 
+[single     s0] test/intermediate_algebra/1508.json gen= 1120 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 24s 
+[single     s2] test/intermediate_algebra/1508.json gen= 1039 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 22s 
+[single     s1] test/intermediate_algebra/1508.json gen= 1595 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 34s 
+[single     s0] test/intermediate_algebra/1791.json gen= 1200 prompt=   154 turns= 1 forced=0 OK  pred='-\\frac{3}{8}' gold='-\\frac{3}{8}' 26s 
+[single     s2] test/intermediate_algebra/1791.json gen= 1525 prompt=   154 turns= 1 forced=0 OK  pred='-\\frac{3}{8}' gold='-\\frac{3}{8}' 33s 
+[single     s1] test/intermediate_algebra/1791.json gen= 2203 prompt=   154 turns= 1 forced=0 OK  pred='-\\frac{3}{8}' gold='-\\frac{3}{8}' 48s 
+[single     s0] test/geometry/880.json         gen= 2509 prompt=  2891 turns= 1 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 55s 
+[retry 18:32:58 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:32:58 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:32:58 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:32:58 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:00 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:00 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:00 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:00 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:04 attempt 3] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:04 attempt 3] HTTP 400: {"error":"Error in iterating prediction stream: Exception: Encountered fatal exception in the backend generation thread: Traceback (most recent call l
+[retry 18:33:04 attempt 3] HTTP 400: {"error":"The model has crashed without additional information. (Exit code: null)"}
+[retry 18:33:04 attempt 3] HTTP 400: {"error":"The model has crashed without additional information. (Exit code: null)"}
+[watchdog 18:33:10] model not loaded; running: /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[single     s2] test/geometry/880.json         gen= 2504 prompt=  2891 turns= 1 forced=1 XX  pred='15' gold='2\\sqrt{113}' 107s 
+[single     s1] test/precalculus/1133.json     gen= 2506 prompt=  2761 turns= 1 forced=1 OK  pred='3R^2' gold='3R^2' 74s 
+[single     s0] test/precalculus/1133.json     gen= 2506 prompt=  2761 turns= 1 forced=1 OK  pred='3R^2' gold='3R^2' 100s 
+[single     s1] test/geometry/880.json         gen= 2509 prompt=  2891 turns= 1 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 127s 
+[single     s0] test/prealgebra/1655.json      gen=  753 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 16s 
+[single     s1] test/prealgebra/1655.json      gen=  863 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 18s 
+[single     s2] test/prealgebra/1655.json      gen=  951 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 20s 
+[single     s0] test/counting_and_probability/188.json gen= 1660 prompt=    87 turns= 1 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 36s 
+[single     s2] test/precalculus/1133.json     gen= 2506 prompt=  2761 turns= 1 forced=1 OK  pred='3R^2' gold='3R^2' 54s 
+[single     s2] test/counting_and_probability/188.json gen= 1738 prompt=    87 turns= 1 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 38s 
+[single     s1] test/counting_and_probability/188.json gen= 2505 prompt=  2697 turns= 1 forced=1 OK  pred='1/2' gold='\\frac{1}{2}' 55s 
+[single     s0] test/geometry/561.json         gen= 2510 prompt=  2705 turns= 1 forced=1 XX  pred='3 + 2\\sqrt{2}' gold='\\frac{7}{2}' 55s 
+[single     s1] test/geometry/561.json         gen= 2505 prompt=  2705 turns= 1 forced=1 OK  pred='3.5' gold='\\frac{7}{2}' 55s 
+[single     s2] test/geometry/561.json         gen= 2510 prompt=  2705 turns= 1 forced=1 XX  pred='3 + 2\\sqrt{2}' gold='\\frac{7}{2}' 55s 
+[single     s0] test/intermediate_algebra/964.json gen= 2503 prompt=  3053 turns= 1 forced=1 XX  pred='2' gold='1' 55s 
+[single     s0] test/counting_and_probability/765.json gen= 1353 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 30s 
+[single     s1] test/counting_and_probability/765.json gen= 1356 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 30s 
+[single     s1] test/intermediate_algebra/964.json gen= 2503 prompt=  3052 turns= 1 forced=1 XX  pred='2' gold='1' 56s 
+[single     s2] test/intermediate_algebra/964.json gen= 2503 prompt=  3053 turns= 1 forced=1 OK  pred='1' gold='1' 56s 
+[single     s2] test/counting_and_probability/765.json gen= 1085 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 25s 
+[single     s0] test/prealgebra/1646.json      gen= 2506 prompt=  3333 turns= 1 forced=1 OK  pred='80^\\circ' gold='80' 56s 
+[single     s1] test/prealgebra/1646.json      gen= 2504 prompt=  3333 turns= 1 forced=1 XX  pred='75' gold='80' 55s 
+[single     s2] test/prealgebra/1646.json      gen= 2505 prompt=  3333 turns= 1 forced=1 XX  pred='105' gold='80' 55s 
+[single     s0] test/intermediate_algebra/955.json gen= 2504 prompt=  2731 turns= 1 forced=1 OK  pred='17' gold='17' 56s 
+[single     s1] test/intermediate_algebra/955.json gen= 2504 prompt=  2731 turns= 1 forced=1 OK  pred='17' gold='17' 55s 
+[single     s0] test/intermediate_algebra/1166.json gen= 2235 prompt=    96 turns= 1 forced=0 OK  pred='100' gold='100' 49s 
+[single     s2] test/intermediate_algebra/955.json gen= 2504 prompt=  2731 turns= 1 forced=1 OK  pred='17' gold='17' 55s 
+[single     s1] test/intermediate_algebra/1166.json gen= 2377 prompt=    96 turns= 1 forced=0 OK  pred='100' gold='100' 52s 
+[single     s0] test/number_theory/1000.json   gen= 1119 prompt=    95 turns= 1 forced=0 OK  pred='44' gold='44' 24s 
+[single     s2] test/number_theory/1000.json   gen= 1011 prompt=    95 turns= 1 forced=0 OK  pred='44' gold='44' 21s 
+[single     s1] test/number_theory/1000.json   gen= 1949 prompt=    95 turns= 1 forced=0 OK  pred='44' gold='44' 42s 
+[single     s0] test/number_theory/631.json    gen= 1079 prompt=   104 turns= 1 forced=0 OK  pred='36' gold='36' 24s 
+[single     s2] test/intermediate_algebra/1166.json gen= 2292 prompt=    96 turns= 1 forced=0 OK  pred='100' gold='100' 50s 
+[single     s1] test/number_theory/631.json    gen= 1051 prompt=   104 turns= 1 forced=0 OK  pred='36' gold='36' 23s 
+[single     s2] test/precalculus/986.json      gen=  881 prompt=   218 turns= 1 forced=0 OK  pred='144' gold='144' 18s 
+[single     s0] test/precalculus/986.json      gen= 1119 prompt=   218 turns= 1 forced=0 OK  pred='144' gold='144' 24s 
+[single     s1] test/precalculus/986.json      gen= 1067 prompt=   218 turns= 1 forced=0 OK  pred='144' gold='144' 23s 
+[single     s2] test/number_theory/631.json    gen= 1237 prompt=   104 turns= 1 forced=0 OK  pred='36' gold='36' 27s 
+[single     s0] test/algebra/2700.json         gen= 1020 prompt=   127 turns= 1 forced=0 OK  pred='\\frac{3}{2}' gold='\\frac{3}{2}' 22s 
+[single     s1] test/algebra/2700.json         gen= 1034 prompt=   127 turns= 1 forced=0 OK  pred='\\frac{3}{2}' gold='\\frac{3}{2}' 22s 
+[single     s0] test/number_theory/1055.json   gen= 1079 prompt=   140 turns= 1 forced=0 OK  pred='203' gold='203' 23s 
+[single     s2] test/algebra/2700.json         gen= 1141 prompt=   127 turns= 1 forced=0 OK  pred='\\frac{3}{2}' gold='\\frac{3}{2}' 24s 
+[single     s2] test/number_theory/1055.json   gen= 1203 prompt=   140 turns= 1 forced=0 OK  pred='203' gold='203' 25s 
+[single     s1] test/counting_and_probability/1009.json gen= 1148 prompt=   104 turns= 1 forced=0 OK  pred='28' gold='28' 24s 
+[single     s0] test/counting_and_probability/1009.json gen= 1466 prompt=   104 turns= 1 forced=0 OK  pred='28' gold='28' 31s 
+[single     s0] test/prealgebra/2066.json      gen=  451 prompt=   120 turns= 1 forced=0 OK  pred='22' gold='22' 10s 
+[single     s1] test/prealgebra/2066.json      gen=  469 prompt=   120 turns= 1 forced=0 OK  pred='22' gold='22' 11s 
+[single     s2] test/prealgebra/2066.json      gen=  450 prompt=   120 turns= 1 forced=0 OK  pred='22' gold='22' 10s 
+[single     s1] test/number_theory/1055.json   gen= 2409 prompt=   140 turns= 1 forced=0 OK  pred='203' gold='203' 53s 
+[single     s2] test/counting_and_probability/1009.json gen= 1179 prompt=   104 turns= 1 forced=0 OK  pred='28' gold='28' 27s 
+[single     s0] test/intermediate_algebra/1930.json gen= 2505 prompt=  2747 turns= 1 forced=1 XX  pred='1/2' gold='\\frac{1}{4}' 54s 
+[single     s1] test/intermediate_algebra/1930.json gen= 2507 prompt=  2747 turns= 1 forced=1 XX  pred='0.125' gold='\\frac{1}{4}' 54s 
+[single     s2] test/intermediate_algebra/1930.json gen= 2506 prompt=  2746 turns= 1 forced=1 OK  pred='0.25' gold='\\frac{1}{4}' 54s 
+[single     s0] test/algebra/2176.json         gen= 2503 prompt=  2748 turns= 1 forced=1 OK  pred='3' gold='3' 55s 
+[single     s1] test/algebra/1143.json         gen=  943 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 20s 
+[single     s0] test/algebra/1143.json         gen= 1107 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 24s 
+[single     s2] test/algebra/1143.json         gen= 1075 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 23s 
+[single     s1] test/algebra/2176.json         gen= 2503 prompt=  2749 turns= 1 forced=1 OK  pred='3' gold='3' 55s 
+[single     s2] test/algebra/2176.json         gen= 2503 prompt=  2749 turns= 1 forced=1 OK  pred='3' gold='3' 55s 
+[single     s0] test/precalculus/1202.json     gen= 2504 prompt=  2813 turns= 1 forced=1 OK  pred='27' gold='27' 55s 
+[single     s2] test/precalculus/1202.json     gen= 1844 prompt=   145 turns= 1 forced=0 OK  pred='27' gold='27' 41s 
+[single     s0] test/intermediate_algebra/2022.json gen= 2049 prompt=   141 turns= 1 forced=0 OK  pred='64' gold='64' 45s 
+[single     s1] test/precalculus/1202.json     gen= 2504 prompt=  2813 turns= 1 forced=1 OK  pred='27' gold='27' 56s 
+[single     s1] test/intermediate_algebra/2022.json gen= 2027 prompt=   141 turns= 1 forced=0 OK  pred='64' gold='64' 45s 
+[single     s1] test/geometry/1140.json        gen= 1425 prompt=    95 turns= 1 forced=0 OK  pred='\\frac{3840}{289}' gold='\\frac{3840}{289}' 31s 
+[single     s0] test/geometry/1140.json        gen= 1692 prompt=    95 turns= 1 forced=0 OK  pred='\\frac{3840}{289}' gold='\\frac{3840}{289}' 37s 
+[single     s2] test/intermediate_algebra/2022.json gen= 2504 prompt=  2805 turns= 1 forced=1 OK  pred='64' gold='64' 56s 
+[single     s2] test/geometry/1140.json        gen= 1402 prompt=    95 turns= 1 forced=0 OK  pred='\\frac{3840}{289}' gold='\\frac{3840}{289}' 31s 
+[single     s0] test/intermediate_algebra/582.json gen= 2343 prompt=   231 turns= 1 forced=0 OK  pred='850' gold='850' 51s 
+[single     s0] test/intermediate_algebra/1388.json gen= 1362 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 30s 
+[single     s1] test/intermediate_algebra/582.json gen= 2403 prompt=   231 turns= 1 forced=0 OK  pred='850' gold='850' 53s 
+[single     s2] test/intermediate_algebra/582.json gen= 2505 prompt=  2985 turns= 1 forced=1 OK  pred='850' gold='850' 55s 
+[single     s1] test/intermediate_algebra/1388.json gen= 1345 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 30s 
+[single     s2] test/intermediate_algebra/1388.json gen= 1485 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 34s 
+[single     s0] test/counting_and_probability/159.json gen=  757 prompt=   100 turns= 1 forced=0 OK  pred='28800' gold='28800' 17s 
+[single     s0] test/counting_and_probability/181.json gen= 2504 prompt=  3991 turns= 1 forced=1 OK  pred='19' gold='19' 56s 
+[single     s1] test/counting_and_probability/159.json gen=  938 prompt=   100 turns= 1 forced=0 OK  pred='28800' gold='28800' 22s 
+[single     s1] test/counting_and_probability/181.json gen= 2504 prompt=  3991 turns= 1 forced=1 XX  pred='24' gold='19' 56s 
+[single     s2] test/counting_and_probability/159.json gen=  732 prompt=   100 turns= 1 forced=0 OK  pred='28800' gold='28800' 17s 
+[single     s2] test/counting_and_probability/181.json gen= 2440 prompt=   734 turns= 1 forced=0 OK  pred='19' gold='19' 55s 
+[single     s0] test/geometry/817.json         gen= 2510 prompt=  2745 turns= 1 forced=1 XX  pred='14(\\sqrt{2}-1)' gold='\\frac{14}{3}' 55s 
+[single     s1] test/geometry/817.json         gen= 2503 prompt=  2744 turns= 1 forced=1 XX  pred='7' gold='\\frac{14}{3}' 55s 
+[single     s2] test/geometry/817.json         gen= 2506 prompt=  2745 turns= 1 forced=1 OK  pred='14/3' gold='\\frac{14}{3}' 55s 
+[single     s0] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 55s 
+[single     s0] test/number_theory/1002.json   gen= 1487 prompt=    97 turns= 1 forced=0 OK  pred='1440' gold='1440' 32s 
+[single     s1] test/number_theory/1002.json   gen= 1546 prompt=    97 turns= 1 forced=0 OK  pred='1440' gold='1440' 34s 
+[single     s1] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 56s 
+[single     s2] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 56s 
+[single     s0] test/intermediate_algebra/1994.json gen=  813 prompt=   150 turns= 1 forced=0 OK  pred='p-q' gold='p - q' 18s 
+[single     s2] test/number_theory/1002.json   gen= 1387 prompt=    97 turns= 1 forced=0 OK  pred='1440' gold='1440' 31s 
+[single     s2] test/intermediate_algebra/1994.json gen=  894 prompt=   150 turns= 1 forced=0 OK  pred='p - q' gold='p - q' 17s 
+[single     s1] test/intermediate_algebra/1994.json gen=  999 prompt=   150 turns= 1 forced=0 OK  pred='p - q' gold='p - q' 18s 
+done
+80 screened problems x 3 seeds; solved-count distribution {0: 10, 1: 5, 2: 6, 3: 59}
+keeping 21 contested + 10 of 59 easy = 31
+== 2. single on FRESH seeds 3,4,5 on the selected problems  18:48:22
+31 problems x ['single'] x seeds [3, 4, 5]: 93 jobs to run (0 done)
+[single     s3] test/algebra/892.json          gen= 2170 prompt=   132 turns= 1 forced=0 OK  pred='2' gold='2' 47s 
+[single     s4] test/algebra/892.json          gen= 2274 prompt=   132 turns= 1 forced=0 OK  pred='2' gold='2' 49s 
+[single     s5] test/algebra/892.json          gen= 2356 prompt=   132 turns= 1 forced=0 OK  pred='2' gold='2' 51s 
+[single     s3] test/geometry/880.json         gen= 2509 prompt=  2891 turns= 1 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 55s 
+[single     s4] test/geometry/880.json         gen= 2508 prompt=  2891 turns= 1 forced=1 XX  pred='2\\sqrt{97}' gold='2\\sqrt{113}' 55s 
+[single     s5] test/geometry/880.json         gen= 2509 prompt=  2891 turns= 1 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 55s 
+[single     s3] test/precalculus/768.json      gen= 2536 prompt=  2723 turns= 1 forced=1 XX  pred='3+2\\sqrt{2}, 3-2\\sqrt{' gold='3 \\pm 2 \\sqrt{2}' 56s 
+[single     s4] test/precalculus/768.json      gen= 2493 prompt=   100 turns= 1 forced=0 XX  pred='3 + 2\\sqrt{2}, 3 - 2\\s' gold='3 \\pm 2 \\sqrt{2}' 55s 
+[single     s3] test/algebra/2626.json         gen=  564 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 12s 
+[single     s4] test/algebra/2626.json         gen=  536 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 12s 
+[single     s5] test/algebra/2626.json         gen=  529 prompt=   116 turns= 1 forced=0 XX  pred='32348' gold='\\$32,\\!348' 11s 
+[single     s5] test/precalculus/768.json      gen= 2520 prompt=  2723 turns= 1 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 55s 
+[single     s3] test/intermediate_algebra/662.json gen= 2510 prompt=  2819 turns= 1 forced=1 OK  pred='1 \\pm \\sqrt{19}' gold='1 \\pm \\sqrt{19}' 55s 
+[single     s4] test/intermediate_algebra/662.json gen= 2516 prompt=  2819 turns= 1 forced=1 XX  pred='1+\\sqrt{19}, 1-\\sqrt{1' gold='1 \\pm \\sqrt{19}' 55s 
+[single     s5] test/intermediate_algebra/662.json gen= 2452 prompt=   148 turns= 1 forced=0 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 54s 
+[single     s3] test/intermediate_algebra/1197.json gen= 2430 prompt=    99 turns= 1 forced=0 OK  pred='\\frac{3}{56}' gold='\\frac{3}{56}' 53s 
+[single     s4] test/intermediate_algebra/1197.json gen= 2506 prompt=  2721 turns= 1 forced=1 XX  pred='27/8' gold='\\frac{3}{56}' 55s 
+[single     s5] test/intermediate_algebra/1197.json gen= 2503 prompt=  2721 turns= 1 forced=1 XX  pred='1' gold='\\frac{3}{56}' 55s 
+[single     s3] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 55s 
+[single     s3] test/intermediate_algebra/1508.json gen= 1139 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 25s 
+[single     s4] test/intermediate_algebra/1508.json gen= 1626 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 35s 
+[single     s4] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 56s 
+[single     s5] test/intermediate_algebra/558.json gen= 2510 prompt=  2815 turns= 1 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 56s 
+[single     s5] test/intermediate_algebra/1508.json gen= 1294 prompt=    99 turns= 1 forced=0 OK  pred='-1' gold='-1' 29s 
+[single     s4] test/intermediate_algebra/1462.json gen= 1302 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 28s 
+[single     s3] test/intermediate_algebra/1462.json gen= 2039 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 45s 
+[single     s5] test/intermediate_algebra/1462.json gen= 1522 prompt=   118 turns= 1 forced=0 OK  pred='331' gold='331' 33s 
+[single     s3] test/intermediate_algebra/2196.json gen= 2229 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 48s 
+[single     s4] test/intermediate_algebra/2196.json gen= 1975 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 43s 
+[single     s5] test/intermediate_algebra/2196.json gen= 2203 prompt=    76 turns= 1 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 48s 
+[single     s3] test/geometry/711.json         gen= 2508 prompt=  2711 turns= 1 forced=1 XX  pred='3 + \\sqrt{2}' gold='1+2\\sqrt{3}' 55s 
+[single     s4] test/geometry/711.json         gen= 2503 prompt=  2711 turns= 1 forced=1 XX  pred='3' gold='1+2\\sqrt{3}' 55s 
+[single     s5] test/geometry/711.json         gen= 2515 prompt=  2711 turns= 1 forced=1 XX  pred='2 + \\frac{5\\sqrt{3}}{2' gold='1+2\\sqrt{3}' 56s 
+[single     s3] test/precalculus/323.json      gen= 1855 prompt=   162 turns= 1 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 41s 
+[single     s4] test/precalculus/323.json      gen= 2210 prompt=   162 turns= 1 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 49s 
+[single     s5] test/precalculus/323.json      gen= 1873 prompt=   162 turns= 1 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 41s 
+[single     s3] test/counting_and_probability/188.json gen= 1691 prompt=    87 turns= 1 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 37s 
+[single     s4] test/counting_and_probability/188.json gen= 2505 prompt=  2697 turns= 1 forced=1 OK  pred='1/2' gold='\\frac{1}{2}' 55s 
+[single     s5] test/counting_and_probability/188.json gen= 2505 prompt=  2697 turns= 1 forced=1 OK  pred='0.5' gold='\\frac{1}{2}' 55s 
+[single     s3] test/intermediate_algebra/956.json gen= 2513 prompt=  2703 turns= 1 forced=1 XX  pred='(-13, 24, -54)' gold='(6,31,-1)' 56s 
+[single     s4] test/intermediate_algebra/956.json gen= 2510 prompt=  2703 turns= 1 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 56s 
+[single     s3] test/prealgebra/1044.json      gen=  678 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 16s 
+[single     s4] test/prealgebra/1044.json      gen=  715 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 16s 
+[single     s5] test/prealgebra/1044.json      gen=  804 prompt=   871 turns= 1 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 18s 
+[single     s5] test/intermediate_algebra/956.json gen= 2510 prompt=  2703 turns= 1 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 57s 
+[single     s3] test/prealgebra/1646.json      gen= 1540 prompt=   405 turns= 1 forced=0 XX  pred='110' gold='80' 34s 
+[single     s4] test/prealgebra/1646.json      gen= 2504 prompt=  3333 turns= 1 forced=1 XX  pred='70' gold='80' 55s 
+[single     s5] test/prealgebra/1646.json      gen= 2505 prompt=  3333 turns= 1 forced=1 XX  pred='110' gold='80' 56s 
+[single     s3] test/intermediate_algebra/1930.json gen= 2506 prompt=  2746 turns= 1 forced=1 OK  pred='0.25' gold='\\frac{1}{4}' 56s 
+[single     s4] test/intermediate_algebra/1930.json gen= 2507 prompt=  2747 turns= 1 forced=1 XX  pred='0.125' gold='\\frac{1}{4}' 56s 
+[single     s5] test/intermediate_algebra/1930.json gen= 2506 prompt=  2747 turns= 1 forced=1 OK  pred='0.25' gold='\\frac{1}{4}' 56s 
+[single     s3] test/geometry/183.json         gen= 2505 prompt=  3033 turns= 1 forced=1 XX  pred='125' gold='145^\\circ' 56s 
+[single     s4] test/geometry/183.json         gen= 2505 prompt=  3033 turns= 1 forced=1 XX  pred='125' gold='145^\\circ' 56s 
+[single     s5] test/geometry/183.json         gen= 2495 prompt=   255 turns= 1 forced=0 OK  pred='145' gold='145^\\circ' 56s 
+[single     s3] test/prealgebra/1655.json      gen=  899 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 19s 
+[single     s3] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 56s 
+[single     s4] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 56s 
+[single     s4] test/prealgebra/1655.json      gen=  866 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 20s 
+[single     s5] test/geometry/826.json         gen= 2506 prompt=  3125 turns= 1 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 56s 
+[single     s5] test/prealgebra/1655.json      gen=  792 prompt=    91 turns= 1 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 18s 
+[single     s3] test/geometry/817.json         gen= 2506 prompt=  2745 turns= 1 forced=1 OK  pred='14/3' gold='\\frac{14}{3}' 54s 
+[single     s4] test/geometry/817.json         gen= 2508 prompt=  2745 turns= 1 forced=1 XX  pred='14/\\sqrt{3}' gold='\\frac{14}{3}' 55s 
+[single     s5] test/geometry/817.json         gen= 2510 prompt=  2745 turns= 1 forced=1 XX  pred='14(\\sqrt{2}-1)' gold='\\frac{14}{3}' 54s 
+[single     s3] test/intermediate_algebra/964.json gen= 2503 prompt=  3053 turns= 1 forced=1 XX  pred='3' gold='1' 55s 
+[single     s4] test/intermediate_algebra/964.json gen= 2503 prompt=  3052 turns= 1 forced=1 XX  pred='2' gold='1' 56s 
+[single     s5] test/intermediate_algebra/964.json gen= 2503 prompt=  3053 turns= 1 forced=1 XX  pred='2' gold='1' 56s 
+[single     s3] test/geometry/561.json         gen= 2503 prompt=  2705 turns= 1 forced=1 XX  pred='3' gold='\\frac{7}{2}' 56s 
+[single     s4] test/geometry/561.json         gen= 2505 prompt=  2705 turns= 1 forced=1 OK  pred='3.5' gold='\\frac{7}{2}' 56s 
+[single     s5] test/counting_and_probability/765.json gen= 1245 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 26s 
+[single     s3] test/counting_and_probability/765.json gen= 1678 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 37s 
+[single     s5] test/geometry/561.json         gen= 2503 prompt=  2705 turns= 1 forced=1 XX  pred='6' gold='\\frac{7}{2}' 55s 
+[single     s4] test/counting_and_probability/765.json gen= 2226 prompt=   131 turns= 1 forced=0 OK  pred='110' gold='110' 49s 
+[single     s3] test/algebra/1143.json         gen=  965 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 22s 
+[single     s4] test/algebra/1143.json         gen= 1116 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 25s 
+[single     s5] test/algebra/1143.json         gen= 1302 prompt=    82 turns= 1 forced=0 OK  pred='17' gold='17' 28s 
+[single     s4] test/intermediate_algebra/2022.json gen= 1223 prompt=   141 turns= 1 forced=0 OK  pred='64' gold='64' 26s 
+[single     s3] test/intermediate_algebra/2022.json gen= 1958 prompt=   141 turns= 1 forced=0 OK  pred='64' gold='64' 42s 
+[single     s5] test/intermediate_algebra/2022.json gen= 1809 prompt=   141 turns= 1 forced=0 OK  pred='64' gold='64' 39s 
+[single     s3] test/intermediate_algebra/1388.json gen= 1168 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 26s 
+[single     s4] test/intermediate_algebra/1388.json gen= 1604 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 35s 
+[single     s5] test/intermediate_algebra/1388.json gen= 1695 prompt=   119 turns= 1 forced=0 XX  pred='-2, 1' gold='1,-2' 37s 
+[single     s3] test/geometry/702.json         gen= 2118 prompt=   534 turns= 1 forced=0 OK  pred='160' gold='160' 46s 
+[single     s4] test/geometry/702.json         gen= 2162 prompt=   534 turns= 1 forced=0 OK  pred='160' gold='160' 47s 
+[single     s5] test/geometry/702.json         gen= 1983 prompt=   534 turns= 1 forced=0 OK  pred='160' gold='160' 44s 
+[single     s3] test/precalculus/1202.json     gen= 2298 prompt=   145 turns= 1 forced=0 OK  pred='27' gold='27' 51s 
+[single     s4] test/precalculus/1202.json     gen= 2504 prompt=  2813 turns= 1 forced=1 OK  pred='27' gold='27' 56s 
+[single     s5] test/precalculus/1202.json     gen= 2504 prompt=  2813 turns= 1 forced=1 OK  pred='27' gold='27' 56s 
+[single     s3] test/counting_and_probability/181.json gen= 2504 prompt=  3991 turns= 1 forced=1 OK  pred='19' gold='19' 57s 
+[single     s4] test/counting_and_probability/181.json gen= 2293 prompt=   734 turns= 1 forced=0 OK  pred='19' gold='19' 52s 
+[single     s3] test/intermediate_algebra/158.json gen= 1595 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 36s 
+[single     s5] test/counting_and_probability/181.json gen= 2105 prompt=   734 turns= 1 forced=0 OK  pred='19' gold='19' 47s 
+[single     s4] test/intermediate_algebra/158.json gen= 1836 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 37s 
+[single     s5] test/intermediate_algebra/158.json gen= 1784 prompt=    90 turns= 1 forced=0 OK  pred='27648' gold='27648' 30s 
+done
+== 3. two-trace conditions x_none,x_summary,x_critique,s_wait,s_summary,s_challenge, seeds 0  19:05:52
+31 problems x ['x_none', 'x_summary', 'x_critique', 's_wait', 's_summary', 's_challenge'] x seeds [0]: 186 jobs to run (93 done)
+[x_none     s0] test/algebra/892.json          gen= 4776 prompt= 64109 turns=11 forced=0 XX  pred='3' gold='2' 172s A=0 B=0 agree=0 ins=0
+[x_summary  s0] test/algebra/892.json          gen= 6559 prompt=126147 turns=11 forced=0 OK  pred='2' gold='2' 231s A=1 B=1 agree=1 ins=19
+[retry 19:11:40 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique s0] test/algebra/892.json          gen= 6329 prompt=125427 turns=11 forced=0 OK  pred='2' gold='2' 263s A=1 B=1 agree=1 ins=19
+[s_wait     s0] test/algebra/892.json          gen= 5006 prompt= 98424 turns=16 forced=1 XX  pred='1' gold='2' 234s A=0 B=0 agree=1 ins=27
+[retry 19:14:28 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_summary  s0] test/algebra/892.json          gen= 3469 prompt= 35981 turns= 8 forced=0 XX  pred='3' gold='2' 106s A=0 B=0 agree=1 ins=9
+[x_none     s0] test/geometry/880.json         gen= 5018 prompt= 41331 turns=10 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 142s A=0 B=0 agree=1 ins=0
+[s_challenge s0] test/algebra/892.json          gen= 7308 prompt=142984 turns=12 forced=1 OK  pred='2' gold='2' 239s A=1 B=1 agree=1 ins=21
+[retry 19:20:01 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 19:21:44 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/geometry/880.json         gen= 7109 prompt=155682 turns=11 forced=1 XX  pred='2\\sqrt{106}' gold='2\\sqrt{113}' 276s A=0 B=0 agree=1 ins=19
+[x_critique s0] test/geometry/880.json         gen= 6965 prompt=157025 turns=10 forced=1 XX  pred='15' gold='2\\sqrt{113}' 284s A=0 B=0 agree=0 ins=18
+[s_wait     s0] test/geometry/880.json         gen= 5016 prompt= 63289 turns= 8 forced=1 XX  pred='12\\sqrt{5}' gold='2\\sqrt{113}' 160s A=0 B=0 agree=1 ins=14
+[s_summary  s0] test/geometry/880.json         gen= 5524 prompt= 87357 turns=13 forced=1 XX  pred='2\\sqrt{41}' gold='2\\sqrt{113}' 198s A=0 B=0 agree=0 ins=15
+[x_none     s0] test/precalculus/768.json      gen= 5066 prompt= 44652 turns=10 forced=1 XX  pred='3+2\\sqrt{2}, 3-2\\sqrt{' gold='3 \\pm 2 \\sqrt{2}' 145s A=0 B=0 agree=0 ins=0
+[s_challenge s0] test/geometry/880.json         gen= 7251 prompt=151614 turns=11 forced=1 XX  pred='15' gold='2\\sqrt{113}' 261s A=0 B=0 agree=1 ins=20
+[x_summary  s0] test/precalculus/768.json      gen= 7043 prompt= 84338 turns= 9 forced=1 XX  pred='3+2\\sqrt{2}, 3-2\\sqrt{' gold='3 \\pm 2 \\sqrt{2}' 165s A=0 B=0 agree=1 ins=16
+[x_critique s0] test/precalculus/768.json      gen= 6767 prompt=123746 turns=11 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 198s A=0 B=0 agree=1 ins=17
+[s_wait     s0] test/precalculus/768.json      gen= 5017 prompt= 76909 turns=15 forced=1 XX  pred='2\\sqrt{2}, -2\\sqrt{2}' gold='3 \\pm 2 \\sqrt{2}' 228s A=0 B=0 agree=0 ins=20
+[watchdog 19:35:33] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_summary  s0] test/precalculus/768.json      gen= 6326 prompt=115341 turns= 9 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 240s A=0 B=0 agree=0 ins=15
+[x_none     s0] test/algebra/2626.json         gen= 1195 prompt= 10718 turns= 4 forced=0 XX  pred='32348' gold='\\$32,\\!348' 61s A=0 B=0 agree=1 ins=0
+[x_summary  s0] test/algebra/2626.json         gen= 1419 prompt= 17382 turns= 3 forced=0 XX  pred='32348' gold='\\$32,\\!348' 65s A=0 B=0 agree=1 ins=4
+[s_challenge s0] test/precalculus/768.json      gen= 7086 prompt=109105 turns=11 forced=1 XX  pred='3 - 2\\sqrt{2}, 3 + 2\\s' gold='3 \\pm 2 \\sqrt{2}' 262s A=0 B=1 agree=0 ins=15
+[x_critique s0] test/algebra/2626.json         gen= 1274 prompt= 17636 turns= 3 forced=0 XX  pred='32348' gold='\\$32,\\!348' 70s A=0 B=0 agree=1 ins=4
+[s_summary  s0] test/algebra/2626.json         gen= 2571 prompt= 27603 turns= 9 forced=0 XX  pred='32348' gold='\\$32,\\!348' 172s A=0 B=0 agree=1 ins=5
+[s_wait     s0] test/algebra/2626.json         gen= 5001 prompt=129617 turns=15 forced=1 XX  pred='28930' gold='\\$32,\\!348' 278s A=0 B=0 agree=0 ins=26
+[s_challenge s0] test/algebra/2626.json         gen= 4072 prompt= 68416 turns=10 forced=0 XX  pred='32348' gold='\\$32,\\!348' 165s A=0 B=0 agree=1 ins=11
+[retry 19:45:05 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/intermediate_algebra/662.json gen= 5020 prompt= 37932 turns= 9 forced=1 OK  pred='1 \\pm \\sqrt{19}' gold='1 \\pm \\sqrt{19}' 127s A=1 B=1 agree=1 ins=0
+[x_critique s0] test/intermediate_algebra/662.json gen= 6294 prompt= 93519 turns= 9 forced=1 OK  pred='1 \\pm \\sqrt{19}' gold='1 \\pm \\sqrt{19}' 171s A=1 B=1 agree=1 ins=16
+[retry 19:48:49 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/intermediate_algebra/662.json gen= 7372 prompt=150132 turns=12 forced=1 XX  pred='1 - \\sqrt{19}, 1 + \\sq' gold='1 \\pm \\sqrt{19}' 241s A=0 B=0 agree=1 ins=21
+[s_summary  s0] test/intermediate_algebra/662.json gen= 1584 prompt=  9313 turns= 4 forced=0 XX  pred='0, 12' gold='1 \\pm \\sqrt{19}' 52s A=0 B=0 agree=1 ins=5
+[s_wait     s0] test/intermediate_algebra/662.json gen= 5019 prompt= 51183 turns=14 forced=1 XX  pred='1 \\pm \\sqrt{5}' gold='1 \\pm \\sqrt{19}' 136s A=0 B=0 agree=0 ins=22
+[s_challenge s0] test/intermediate_algebra/662.json gen= 7381 prompt=104966 turns= 9 forced=1 XX  pred='1 \\pm \\sqrt{37}, 1 \\pm' gold='1 \\pm \\sqrt{19}' 191s A=0 B=0 agree=0 ins=16
+[x_none     s0] test/intermediate_algebra/1197.json gen= 5009 prompt= 48070 turns=11 forced=1 OK  pred='3/56' gold='\\frac{3}{56}' 146s A=1 B=1 agree=1 ins=0
+[x_summary  s0] test/intermediate_algebra/1197.json gen= 6985 prompt=123058 turns=11 forced=1 XX  pred='41/756' gold='\\frac{3}{56}' 217s A=0 B=0 agree=0 ins=19
+[x_critique s0] test/intermediate_algebra/1197.json gen= 6489 prompt=113962 turns=11 forced=0 OK  pred='\\frac{3}{56}' gold='\\frac{3}{56}' 207s A=1 B=1 agree=1 ins=17
+[s_summary  s0] test/intermediate_algebra/1197.json gen= 6669 prompt=100487 turns=11 forced=1 XX  pred='1/56' gold='\\frac{3}{56}' 246s A=0 B=0 agree=0 ins=19
+[s_wait     s0] test/intermediate_algebra/1197.json gen= 5006 prompt=115696 turns=16 forced=1 XX  pred='1' gold='\\frac{3}{56}' 261s A=0 B=0 agree=0 ins=27
+[watchdog 20:06:05] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 20:06:20 attempt 1] timed out
+[retry 20:06:20 attempt 1] timed out
+[retry 20:06:20 attempt 1] timed out
+[retry 20:06:20 attempt 1] timed out
+[retry 20:06:44 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:06:50 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/intermediate_algebra/558.json gen= 5020 prompt= 37180 turns=10 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 438s A=0 B=0 agree=1 ins=0
+[watchdog 20:10:03] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge s0] test/intermediate_algebra/1197.json gen= 7488 prompt=137335 turns=12 forced=1 XX  pred='1' gold='\\frac{3}{56}' 571s A=0 B=0 agree=1 ins=19
+[retry 20:10:28 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:10:42 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:10:48 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/intermediate_algebra/558.json gen= 6316 prompt= 72367 turns=10 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 189s A=0 B=0 agree=1 ins=15
+[x_critique s0] test/intermediate_algebra/558.json gen= 6182 prompt= 85189 turns= 9 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 155s A=0 B=0 agree=1 ins=15
+[s_wait     s0] test/intermediate_algebra/558.json gen= 5020 prompt= 99829 turns=16 forced=1 XX  pred='3 < \\lambda \\le 4' gold='(3,4]' 209s A=0 B=0 agree=1 ins=24
+[s_summary  s0] test/intermediate_algebra/558.json gen= 3432 prompt= 30466 turns=10 forced=0 OK  pred='(3, 4]' gold='(3,4]' 126s A=0 B=1 agree=0 ins=5
+[retry 20:16:33 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/intermediate_algebra/1508.json gen= 3617 prompt= 28413 turns= 8 forced=0 OK  pred='-1' gold='-1' 121s A=0 B=1 agree=0 ins=0
+[s_challenge s0] test/intermediate_algebra/558.json gen= 6661 prompt=135727 turns=11 forced=0 OK  pred='(3, 4]' gold='(3,4]' 215s A=1 B=0 agree=0 ins=17
+[x_summary  s0] test/intermediate_algebra/1508.json gen= 4428 prompt= 44523 turns= 8 forced=0 OK  pred='-1' gold='-1' 139s A=1 B=1 agree=1 ins=11
+[x_critique s0] test/intermediate_algebra/1508.json gen= 3815 prompt= 48223 turns= 7 forced=0 OK  pred='-1' gold='-1' 121s A=1 B=1 agree=1 ins=11
+[s_summary  s0] test/intermediate_algebra/1508.json gen= 1021 prompt=  9110 turns= 4 forced=0 OK  pred='-1' gold='-1' 58s A=1 B=1 agree=1 ins=3
+[s_wait     s0] test/intermediate_algebra/1508.json gen= 5006 prompt= 58463 turns=12 forced=1 XX  pred='1' gold='-1' 194s A=0 B=0 agree=1 ins=17
+[retry 20:23:46 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/intermediate_algebra/1462.json gen= 4055 prompt= 32291 turns= 9 forced=0 OK  pred='331' gold='331' 107s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/intermediate_algebra/1508.json gen= 6865 prompt= 99563 turns= 9 forced=0 OK  pred='-1' gold='-1' 193s A=0 B=1 agree=0 ins=16
+[x_critique s0] test/intermediate_algebra/1462.json gen= 4189 prompt= 45761 turns= 6 forced=0 OK  pred='331' gold='331' 93s A=1 B=1 agree=1 ins=10
+[x_summary  s0] test/intermediate_algebra/1462.json gen= 4269 prompt= 54943 turns= 7 forced=0 OK  pred='331' gold='331' 143s A=1 B=1 agree=1 ins=12
+[s_summary  s0] test/intermediate_algebra/1462.json gen= 2265 prompt= 16948 turns= 5 forced=0 XX  pred='661' gold='331' 78s A=0 B=0 agree=1 ins=7
+[retry 20:28:48 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:28:57 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:29:07 attempt 3] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 20:29:24 attempt 4] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[watchdog 20:34:32] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 20:34:46 attempt 5] timed out
+[retry 20:34:46 attempt 1] timed out
+[retry 20:34:46 attempt 1] timed out
+[retry 20:35:01 attempt 6] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_wait     s0] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s  ERROR RuntimeError('HTTP 400: {"error":"No models loaded. Please load a model in the d
+[watchdog 20:35:47] model not loaded; running: /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_challenge s0] test/intermediate_algebra/1462.json gen= 6336 prompt=103067 turns=11 forced=0 OK  pred='331' gold='331' 531s A=1 B=1 agree=1 ins=15
+[x_none     s0] test/intermediate_algebra/2196.json gen= 3607 prompt= 23054 turns= 8 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 113s A=1 B=1 agree=1 ins=0
+[x_critique s0] test/intermediate_algebra/2196.json gen= 5251 prompt= 67838 turns= 7 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 128s A=1 B=1 agree=1 ins=12
+[x_summary  s0] test/intermediate_algebra/2196.json gen= 4948 prompt= 76876 turns=12 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 163s A=1 B=1 agree=1 ins=11
+[retry 20:41:14 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_summary  s0] test/intermediate_algebra/2196.json gen= 4279 prompt= 52070 turns=10 forced=0 OK  pred='\\frac{1}{4}' gold='\\frac{1}{4}' 198s A=1 B=1 agree=1 ins=11
+[s_wait     s0] test/intermediate_algebra/2196.json gen= 5006 prompt= 89967 turns=12 forced=1 OK  pred='1/4' gold='\\frac{1}{4}' 208s A=1 B=0 agree=0 ins=18
+[retry 20:43:43 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/geometry/711.json         gen= 5023 prompt= 61740 turns= 9 forced=1 XX  pred='1 + \\frac{3\\sqrt{3}}{2' gold='1+2\\sqrt{3}' 167s A=0 B=0 agree=0 ins=0
+[s_challenge s0] test/intermediate_algebra/2196.json gen= 6997 prompt=129720 turns=10 forced=1 OK  pred='1/4' gold='\\frac{1}{4}' 241s A=1 B=1 agree=1 ins=17
+[x_summary  s0] test/geometry/711.json         gen= 6650 prompt= 82609 turns=11 forced=1 XX  pred='1 + \\frac{3\\sqrt{3}}{2' gold='1+2\\sqrt{3}' 199s A=0 B=1 agree=0 ins=15
+[x_critique s0] test/geometry/711.json         gen= 6636 prompt=127424 turns=11 forced=1 XX  pred='2 + \\sqrt{3}' gold='1+2\\sqrt{3}' 225s A=0 B=0 agree=0 ins=15
+[s_wait     s0] test/geometry/711.json         gen= 5007 prompt=110136 turns=13 forced=1 XX  pred='2\\sqrt{3}' gold='1+2\\sqrt{3}' 251s A=0 B=0 agree=0 ins=19
+[s_summary  s0] test/geometry/711.json         gen= 6177 prompt= 78791 turns=12 forced=1 XX  pred='2\\sqrt{3} + 1' gold='1+2\\sqrt{3}' 175s A=0 B=0 agree=0 ins=19
+[s_challenge s0] test/geometry/711.json         gen= 6894 prompt= 85069 turns= 9 forced=1 XX  pred='1 + \\frac{3\\sqrt{3}}{2' gold='1+2\\sqrt{3}' 186s A=0 B=0 agree=0 ins=15
+[x_none     s0] test/precalculus/323.json      gen= 3777 prompt= 56133 turns=11 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 165s A=1 B=1 agree=1 ins=0
+[x_summary  s0] test/precalculus/323.json      gen= 5110 prompt= 81323 turns=10 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 215s A=1 B=1 agree=1 ins=17
+[x_critique s0] test/precalculus/323.json      gen= 5302 prompt=134377 turns=11 forced=0 OK  pred='y = 2x + 3' gold='y = 2x + 3' 264s A=1 B=1 agree=1 ins=20
+[s_wait     s0] test/precalculus/323.json      gen= 5024 prompt= 99900 turns=17 forced=1 XX  pred='y = 2x + \\frac{1}{5}' gold='y = 2x + 3' 248s A=0 B=0 agree=0 ins=26
+[s_summary  s0] test/precalculus/323.json      gen= 6319 prompt=126756 turns=15 forced=1 OK  pred='y = 2x + 3' gold='y = 2x + 3' 247s A=1 B=1 agree=1 ins=21
+[x_none     s0] test/counting_and_probability/188.json gen= 4022 prompt= 51339 turns=11 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 168s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/precalculus/323.json      gen= 8719 prompt=199802 turns=15 forced=1 XX  pred='y = 2x + 1' gold='y = 2x + 3' 346s A=0 B=0 agree=0 ins=27
+[x_summary  s0] test/counting_and_probability/188.json gen= 4485 prompt= 62290 turns= 9 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 165s A=1 B=1 agree=1 ins=13
+[x_critique s0] test/counting_and_probability/188.json gen= 4877 prompt= 89767 turns= 9 forced=0 OK  pred='\\frac{1}{2}' gold='\\frac{1}{2}' 195s A=1 B=1 agree=1 ins=15
+[s_wait     s0] test/counting_and_probability/188.json gen= 5006 prompt= 98885 turns=16 forced=1 XX  pred='7/9' gold='\\frac{1}{2}' 220s A=0 B=0 agree=1 ins=29
+[retry 21:16:44 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_summary  s0] test/counting_and_probability/188.json gen= 5524 prompt= 84185 turns=10 forced=0 OK  pred='1/2' gold='\\frac{1}{2}' 225s A=1 B=1 agree=1 ins=13
+[s_challenge s0] test/counting_and_probability/188.json gen= 4997 prompt= 93538 turns=13 forced=0 XX  pred='\\frac{1}{18}' gold='\\frac{1}{2}' 198s A=0 B=1 agree=0 ins=11
+[x_none     s0] test/intermediate_algebra/956.json gen= 5019 prompt= 51670 turns=12 forced=1 XX  pred='6, -19, -1' gold='(6,31,-1)' 140s A=0 B=0 agree=0 ins=0
+[x_summary  s0] test/intermediate_algebra/956.json gen= 7406 prompt=129742 turns=12 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 220s A=0 B=0 agree=1 ins=21
+[x_critique s0] test/intermediate_algebra/956.json gen= 7642 prompt=239815 turns=13 forced=1 XX  pred='6, 31, -1' gold='(6,31,-1)' 351s A=0 B=0 agree=1 ins=23
+[s_wait     s0] test/intermediate_algebra/956.json gen= 5023 prompt= 89063 turns=12 forced=1 XX  pred='(-3, 3, -1)' gold='(6,31,-1)' 244s A=0 B=0 agree=0 ins=22
+[s_summary  s0] test/intermediate_algebra/956.json gen= 4517 prompt= 37204 turns= 7 forced=0 XX  pred='(-15, 87, -49)' gold='(6,31,-1)' 120s A=0 B=0 agree=1 ins=11
+[x_none     s0] test/prealgebra/1044.json      gen= 1976 prompt= 42791 turns= 6 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 113s A=0 B=0 agree=1 ins=0
+[s_challenge s0] test/intermediate_algebra/956.json gen= 7719 prompt=164793 turns=12 forced=1 XX  pred='6, -15, -1' gold='(6,31,-1)' 264s A=0 B=0 agree=0 ins=21
+[x_critique s0] test/prealgebra/1044.json      gen= 2077 prompt= 58899 turns= 5 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 103s A=0 B=0 agree=1 ins=8
+[x_summary  s0] test/prealgebra/1044.json      gen= 4224 prompt=124689 turns= 9 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 202s A=0 B=0 agree=1 ins=13
+[s_wait     s0] test/prealgebra/1044.json      gen= 5010 prompt= 81386 turns=10 forced=1 XX  pred='5.3' gold='5.4 \\text{ cents}' 170s A=0 B=0 agree=0 ins=16
+[s_summary  s0] test/prealgebra/1044.json      gen= 2153 prompt= 62567 turns= 6 forced=0 XX  pred='5.4' gold='5.4 \\text{ cents}' 131s A=0 B=0 agree=1 ins=9
+[x_none     s0] test/prealgebra/1646.json      gen= 5016 prompt= 40084 turns= 8 forced=1 XX  pred='150^{\\circ}' gold='80' 113s A=0 B=0 agree=0 ins=0
+[s_challenge s0] test/prealgebra/1044.json      gen= 7674 prompt=221563 turns=13 forced=1 XX  pred='5.4' gold='5.4 \\text{ cents}' 257s A=0 B=0 agree=0 ins=23
+[retry 21:39:35 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/prealgebra/1646.json      gen= 6804 prompt=118307 turns=12 forced=1 XX  pred='130' gold='80' 206s A=0 B=0 agree=1 ins=17
+[x_critique s0] test/prealgebra/1646.json      gen= 7203 prompt=107949 turns= 9 forced=1 XX  pred='130' gold='80' 172s A=0 B=0 agree=1 ins=16
+[s_wait     s0] test/prealgebra/1646.json      gen= 5004 prompt= 72731 turns=12 forced=1 XX  pred='100^\\circ' gold='80' 174s A=0 B=0 agree=1 ins=17
+[retry 21:44:18 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_summary  s0] test/prealgebra/1646.json      gen= 4687 prompt= 70681 turns= 9 forced=0 XX  pred='130' gold='80' 187s A=0 B=0 agree=1 ins=11
+[s_challenge s0] test/prealgebra/1646.json      gen= 7494 prompt=131749 turns=11 forced=1 XX  pred='130' gold='80' 220s A=0 B=1 agree=0 ins=17
+[x_none     s0] test/intermediate_algebra/1930.json gen= 5010 prompt= 39618 turns=10 forced=1 XX  pred='1' gold='\\frac{1}{4}' 119s A=0 B=0 agree=0 ins=0
+[retry 21:49:49 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_critique s0] test/intermediate_algebra/1930.json gen= 6770 prompt=141508 turns=11 forced=1 XX  pred='0.5' gold='\\frac{1}{4}' 213s A=0 B=0 agree=0 ins=19
+[x_summary  s0] test/intermediate_algebra/1930.json gen= 7145 prompt=107992 turns=11 forced=1 XX  pred='1/8' gold='\\frac{1}{4}' 223s A=0 B=1 agree=0 ins=19
+[s_wait     s0] test/intermediate_algebra/1930.json gen= 5010 prompt= 67284 turns=12 forced=1 XX  pred='1/2' gold='\\frac{1}{4}' 110s A=0 B=0 agree=1 ins=21
+[s_summary  s0] test/intermediate_algebra/1930.json gen= 3131 prompt= 28642 turns= 9 forced=0 XX  pred='\\frac{3}{4}' gold='\\frac{1}{4}' 122s A=1 B=0 agree=0 ins=3
+[s_challenge s0] test/intermediate_algebra/1930.json gen= 6871 prompt=102069 turns= 8 forced=1 XX  pred='1/2' gold='\\frac{1}{4}' 171s A=0 B=0 agree=1 ins=14
+[x_none     s0] test/geometry/183.json         gen= 5010 prompt= 52141 turns=12 forced=1 XX  pred='125' gold='145^\\circ' 159s A=0 B=0 agree=1 ins=0
+[x_critique s0] test/geometry/183.json         gen= 4822 prompt=103721 turns= 9 forced=0 OK  pred='145' gold='145^\\circ' 201s A=1 B=1 agree=1 ins=15
+[x_summary  s0] test/geometry/183.json         gen= 7129 prompt=133826 turns=13 forced=1 OK  pred='145' gold='145^\\circ' 245s A=1 B=1 agree=1 ins=19
+[s_wait     s0] test/geometry/183.json         gen= 5010 prompt= 48096 turns=17 forced=1 XX  pred='125' gold='145^\\circ' 128s A=0 B=1 agree=0 ins=23
+[s_summary  s0] test/geometry/183.json         gen= 2941 prompt= 42929 turns= 8 forced=0 OK  pred='145' gold='145^\\circ' 94s A=1 B=1 agree=1 ins=7
+[x_none     s0] test/geometry/826.json         gen= 5006 prompt= 78119 turns=12 forced=1 OK  pred='1 \\frac{4}{5}' gold='1\\frac{4}{5}' 183s A=1 B=0 agree=0 ins=0
+[s_challenge s0] test/geometry/183.json         gen= 7891 prompt=183656 turns=12 forced=1 XX  pred='125' gold='145^\\circ' 285s A=0 B=1 agree=0 ins=21
+[x_summary  s0] test/geometry/826.json         gen= 6724 prompt=110640 turns=12 forced=1 XX  pred='2 \\frac{1}{5}' gold='1\\frac{4}{5}' 211s A=0 B=0 agree=0 ins=15
+[retry 22:07:23 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 22:07:32 attempt 2] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_wait     s0] test/geometry/826.json         gen= 5012 prompt= 45646 turns= 8 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 108s A=0 B=0 agree=1 ins=14
+[x_critique s0] test/geometry/826.json         gen= 6634 prompt=166443 turns=12 forced=1 XX  pred='3\\sqrt{5}/5' gold='1\\frac{4}{5}' 247s A=0 B=0 agree=0 ins=18
+[s_summary  s0] test/geometry/826.json         gen= 6688 prompt= 82884 turns=10 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 180s A=0 B=0 agree=1 ins=17
+[x_none     s0] test/prealgebra/1655.json      gen= 1687 prompt= 13934 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 67s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/geometry/826.json         gen= 6997 prompt=121839 turns=11 forced=1 XX  pred='15/4' gold='1\\frac{4}{5}' 234s A=0 B=0 agree=1 ins=15
+[x_summary  s0] test/prealgebra/1655.json      gen= 2302 prompt= 28939 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 92s A=1 B=1 agree=1 ins=8
+[x_critique s0] test/prealgebra/1655.json      gen= 1999 prompt= 28804 turns= 5 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 92s A=1 B=1 agree=1 ins=8
+[s_summary  s0] test/prealgebra/1655.json      gen= 3039 prompt= 37061 turns= 9 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 110s A=1 B=1 agree=1 ins=9
+[s_wait     s0] test/prealgebra/1655.json      gen= 2720 prompt= 49905 turns=16 forced=0 XX  pred='' gold='\\dfrac{17}{50}' 153s A=0 B=0 agree=0 ins=16
+[x_none     s0] test/geometry/817.json         gen= 5024 prompt= 39536 turns= 9 forced=1 XX  pred='14(3 - 2\\sqrt{2})' gold='\\frac{14}{3}' 108s A=0 B=0 agree=0 ins=0
+[s_challenge s0] test/prealgebra/1655.json      gen= 6191 prompt=130998 turns=13 forced=0 OK  pred='\\frac{17}{50}' gold='\\dfrac{17}{50}' 236s A=1 B=1 agree=1 ins=19
+[retry 22:20:49 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/geometry/817.json         gen= 6651 prompt= 69038 turns= 8 forced=1 XX  pred='14\\sqrt{2}-14' gold='\\frac{14}{3}' 165s A=0 B=0 agree=0 ins=14
+[s_wait     s0] test/geometry/817.json         gen= 5012 prompt= 49977 turns=17 forced=1 OK  pred='14/3' gold='\\frac{14}{3}' 175s A=1 B=1 agree=1 ins=27
+[x_critique s0] test/geometry/817.json         gen= 7134 prompt=195772 turns=13 forced=1 XX  pred='14(\\sqrt{2}-1)' gold='\\frac{14}{3}' 254s A=0 B=0 agree=1 ins=19
+[retry 22:25:11 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[watchdog 22:27:22] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[s_summary  s0] test/geometry/817.json         gen= 6656 prompt= 82115 turns= 9 forced=1 XX  pred='14/5' gold='\\frac{14}{3}' 207s A=0 B=0 agree=0 ins=16
+[s_challenge s0] test/geometry/817.json         gen= 7253 prompt=123334 turns=10 forced=1 XX  pred='14/9' gold='\\frac{14}{3}' 244s A=0 B=0 agree=0 ins=17
+[x_none     s0] test/intermediate_algebra/964.json gen= 5006 prompt=102113 turns=15 forced=1 OK  pred='1' gold='1' 226s A=1 B=1 agree=1 ins=0
+[retry 22:32:10 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/intermediate_algebra/964.json gen= 7721 prompt=151653 turns=13 forced=1 OK  pred='1' gold='1' 270s A=1 B=1 agree=1 ins=23
+[x_critique s0] test/intermediate_algebra/964.json gen= 7231 prompt=217573 turns=14 forced=1 XX  pred='3' gold='1' 314s A=0 B=0 agree=0 ins=23
+[s_wait     s0] test/intermediate_algebra/964.json gen= 5006 prompt= 87819 turns=17 forced=1 XX  pred='3' gold='1' 220s A=0 B=0 agree=1 ins=31
+[s_summary  s0] test/intermediate_algebra/964.json gen= 1647 prompt=  9162 turns= 6 forced=0 XX  pred='4' gold='1' 42s A=0 B=0 agree=1 ins=3
+[s_challenge s0] test/intermediate_algebra/964.json gen= 3095 prompt= 32130 turns=13 forced=0 OK  pred='1' gold='1' 93s A=1 B=1 agree=1 ins=3
+[x_none     s0] test/geometry/561.json         gen= 4308 prompt= 36880 turns=10 forced=0 OK  pred='3.5' gold='\\frac{7}{2}' 100s A=1 B=1 agree=1 ins=0
+[x_summary  s0] test/geometry/561.json         gen= 6814 prompt= 95011 turns=10 forced=1 XX  pred='6' gold='\\frac{7}{2}' 217s A=0 B=0 agree=1 ins=17
+[x_critique s0] test/geometry/561.json         gen= 6287 prompt=116530 turns=12 forced=1 XX  pred='3' gold='\\frac{7}{2}' 188s A=0 B=0 agree=0 ins=17
+[s_wait     s0] test/geometry/561.json         gen= 5020 prompt= 54782 turns=13 forced=1 XX  pred='3 + 2\\sqrt{2}' gold='\\frac{7}{2}' 158s A=0 B=0 agree=1 ins=19
+[retry 22:46:00 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_summary  s0] test/geometry/561.json         gen= 4931 prompt=107795 turns=10 forced=0 XX  pred='6 + 4\\sqrt{2}' gold='\\frac{7}{2}' 246s A=1 B=0 agree=0 ins=17
+[x_none     s0] test/counting_and_probability/765.json gen= 2087 prompt= 22170 turns= 6 forced=0 OK  pred='110' gold='110' 94s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/geometry/561.json         gen= 7411 prompt=111880 turns=10 forced=1 XX  pred='6' gold='\\frac{7}{2}' 243s A=0 B=1 agree=0 ins=18
+[x_critique s0] test/counting_and_probability/765.json gen= 2410 prompt= 40432 turns= 6 forced=0 OK  pred='110' gold='110' 120s A=1 B=1 agree=1 ins=9
+[x_summary  s0] test/counting_and_probability/765.json gen= 3836 prompt= 62451 turns= 8 forced=0 OK  pred='110' gold='110' 180s A=1 B=1 agree=1 ins=11
+[s_summary  s0] test/counting_and_probability/765.json gen= 2448 prompt= 36928 turns=11 forced=0 XX  pred='105' gold='110' 179s A=0 B=1 agree=0 ins=5
+[s_wait     s0] test/counting_and_probability/765.json gen= 5003 prompt=139596 turns=15 forced=1 XX  pred='105' gold='110' 278s A=0 B=0 agree=0 ins=23
+[retry 22:55:23 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/algebra/1143.json         gen= 2864 prompt= 20231 turns= 6 forced=0 OK  pred='17' gold='17' 86s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/counting_and_probability/765.json gen= 4718 prompt= 84124 turns= 9 forced=0 OK  pred='110' gold='110' 185s A=1 B=1 agree=1 ins=15
+[x_critique s0] test/algebra/1143.json         gen= 2200 prompt= 25549 turns= 5 forced=0 OK  pred='17' gold='17' 67s A=1 B=1 agree=1 ins=7
+[x_summary  s0] test/algebra/1143.json         gen= 3240 prompt= 36460 turns= 6 forced=0 OK  pred='17' gold='17' 101s A=1 B=1 agree=1 ins=10
+[s_summary  s0] test/algebra/1143.json         gen= 3989 prompt= 47417 turns=11 forced=0 OK  pred='17' gold='17' 221s A=1 B=1 agree=1 ins=13
+[retry 23:02:22 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_wait     s0] test/algebra/1143.json         gen= 5008 prompt=127092 turns=15 forced=1 OK  pred='17' gold='17' 264s A=1 B=0 agree=0 ins=26
+[s_challenge s0] test/algebra/1143.json         gen= 3113 prompt= 32928 turns= 6 forced=0 OK  pred='17' gold='17' 119s A=1 B=1 agree=1 ins=7
+[x_none     s0] test/intermediate_algebra/2022.json gen= 5008 prompt= 61780 turns=12 forced=1 OK  pred='64' gold='64' 145s A=1 B=1 agree=1 ins=0
+[retry 23:06:34 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_summary  s0] test/intermediate_algebra/2022.json gen= 6475 prompt=104378 turns=12 forced=0 OK  pred='64' gold='64' 172s A=1 B=1 agree=1 ins=17
+[x_critique s0] test/intermediate_algebra/2022.json gen= 5041 prompt= 66031 turns= 9 forced=0 OK  pred='64' gold='64' 148s A=1 B=1 agree=1 ins=11
+[s_summary  s0] test/intermediate_algebra/2022.json gen= 2803 prompt= 40006 turns=11 forced=0 OK  pred='64' gold='64' 145s A=1 B=1 agree=1 ins=3
+[s_wait     s0] test/intermediate_algebra/2022.json gen= 5007 prompt= 95850 turns=14 forced=1 OK  pred='64' gold='64' 193s A=1 B=0 agree=0 ins=24
+[x_none     s0] test/intermediate_algebra/1388.json gen= 2647 prompt= 22184 turns= 7 forced=0 XX  pred='-2, 1' gold='1,-2' 92s A=0 B=0 agree=1 ins=0
+[s_challenge s0] test/intermediate_algebra/2022.json gen= 6364 prompt=110473 turns=11 forced=0 OK  pred='64' gold='64' 213s A=1 B=1 agree=1 ins=17
+[x_summary  s0] test/intermediate_algebra/1388.json gen= 5618 prompt= 89076 turns=11 forced=0 XX  pred='-2, 1' gold='1,-2' 203s A=0 B=0 agree=1 ins=17
+[x_critique s0] test/intermediate_algebra/1388.json gen= 4290 prompt= 98162 turns= 9 forced=0 XX  pred='-2, 1' gold='1,-2' 206s A=0 B=0 agree=1 ins=15
+[s_wait     s0] test/intermediate_algebra/1388.json gen= 5006 prompt=104370 turns=16 forced=1 XX  pred='1' gold='1,-2' 277s A=0 B=0 agree=1 ins=23
+[s_summary  s0] test/intermediate_algebra/1388.json gen= 4309 prompt= 76927 turns=11 forced=0 XX  pred='0, 1' gold='1,-2' 191s A=0 B=0 agree=1 ins=13
+[retry 23:21:13 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 23:22:11 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[x_none     s0] test/geometry/702.json         gen= 4995 prompt= 77502 turns=12 forced=1 OK  pred='160' gold='160' 181s A=1 B=0 agree=0 ins=0
+[s_challenge s0] test/intermediate_algebra/1388.json gen= 6092 prompt=121605 turns=11 forced=0 XX  pred='-2, 1' gold='1,-2' 210s A=0 B=1 agree=0 ins=15
+[x_critique s0] test/geometry/702.json         gen= 7174 prompt=229827 turns=12 forced=1 OK  pred='160' gold='160' 318s A=1 B=1 agree=1 ins=22
+[x_summary  s0] test/geometry/702.json         gen= 7990 prompt=224470 turns=14 forced=1 OK  pred='160' gold='160' 348s A=1 B=1 agree=1 ins=25
+[s_wait     s0] test/geometry/702.json         gen= 5009 prompt=108710 turns=11 forced=1 XX  pred='10' gold='160' 208s A=0 B=0 agree=0 ins=15
+[s_summary  s0] test/geometry/702.json         gen= 6333 prompt=136452 turns=11 forced=0 OK  pred='160' gold='160' 237s A=1 B=1 agree=1 ins=20
+[x_none     s0] test/precalculus/1202.json     gen= 5008 prompt= 28826 turns= 8 forced=1 OK  pred='27' gold='27' 74s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/geometry/702.json         gen= 4041 prompt= 77304 turns=11 forced=0 XX  pred='80' gold='160' 154s A=1 B=0 agree=0 ins=7
+[x_critique s0] test/precalculus/1202.json     gen= 5034 prompt= 58576 turns= 7 forced=0 OK  pred='27' gold='27' 118s A=1 B=1 agree=1 ins=11
+[x_summary  s0] test/precalculus/1202.json     gen= 5803 prompt= 76468 turns= 9 forced=0 OK  pred='27' gold='27' 151s A=1 B=1 agree=1 ins=16
+[s_summary  s0] test/precalculus/1202.json     gen= 6624 prompt= 71430 turns= 9 forced=1 OK  pred='27' gold='27' 185s A=1 B=1 agree=1 ins=15
+[s_wait     s0] test/precalculus/1202.json     gen= 5008 prompt=104077 turns=15 forced=1 XX  pred='10' gold='27' 234s A=0 B=0 agree=0 ins=21
+[x_none     s0] test/counting_and_probability/181.json gen= 4836 prompt= 89864 turns=10 forced=0 OK  pred='19' gold='19' 167s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/precalculus/1202.json     gen= 7483 prompt=148730 turns=11 forced=1 OK  pred='27' gold='27' 240s A=1 B=1 agree=1 ins=20
+[x_summary  s0] test/counting_and_probability/181.json gen= 6457 prompt=155053 turns=10 forced=0 OK  pred='19' gold='19' 235s A=1 B=1 agree=1 ins=17
+[x_critique s0] test/counting_and_probability/181.json gen= 5532 prompt=165259 turns=10 forced=0 OK  pred='19' gold='19' 230s A=1 B=1 agree=1 ins=18
+[retry 23:48:23 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_wait     s0] test/counting_and_probability/181.json gen= 5008 prompt= 68949 turns=10 forced=1 XX  pred='10' gold='19' 116s A=0 B=0 agree=0 ins=18
+[s_summary  s0] test/counting_and_probability/181.json gen= 5118 prompt= 77647 turns=10 forced=0 XX  pred='10' gold='19' 178s A=0 B=0 agree=1 ins=11
+[x_none     s0] test/intermediate_algebra/158.json gen= 2836 prompt= 30571 turns= 9 forced=0 OK  pred='27648' gold='27648' 110s A=1 B=1 agree=1 ins=0
+[s_challenge s0] test/counting_and_probability/181.json gen= 6238 prompt=130151 turns=10 forced=0 XX  pred='15' gold='19' 200s A=1 B=0 agree=0 ins=15
+[x_critique s0] test/intermediate_algebra/158.json gen= 4393 prompt= 88187 turns=11 forced=0 OK  pred='27648' gold='27648' 184s A=1 B=1 agree=1 ins=13
+[x_summary  s0] test/intermediate_algebra/158.json gen= 6922 prompt=135845 turns=12 forced=0 OK  pred='27648' gold='27648' 261s A=1 B=1 agree=1 ins=22
+[s_summary  s0] test/intermediate_algebra/158.json gen= 3699 prompt= 56941 turns= 9 forced=0 OK  pred='27648' gold='27648' 187s A=1 B=1 agree=1 ins=11
+[s_wait     s0] test/intermediate_algebra/158.json gen= 5021 prompt=104896 turns=13 forced=1 XX  pred='10^5' gold='27648' 257s A=0 B=0 agree=0 ins=23
+[watchdog 00:01:17] engine wedged; running: /Users/andraslferenczi/.lmstudio/bin/lms unload twin; /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[retry 00:01:50 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[s_challenge s0] test/intermediate_algebra/158.json gen= 5879 prompt=114971 turns=10 forced=0 OK  pred='27648' gold='27648' 167s A=1 B=1 agree=1 ins=15
+done
+== done  00:02:22

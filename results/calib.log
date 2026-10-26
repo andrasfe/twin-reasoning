@@ -1,0 +1,20 @@
+4 problems x ['single', 'twin_asym'] x seeds [0]: 8 jobs to run (0 done)
+[twin_asym s0] test/intermediate_algebra/183.json gen= 3663 prompt= 20880 turns= 9 forced=0 OK  pred='(2, \\infty) ' gold='(2,\\infty)' 75s
+[single    s0] test/intermediate_algebra/183.json gen= 4722 prompt=  4201 turns= 1 forced=1 OK  pred='(2, \\infty)' gold='(2,\\infty)' 77s
+[single    s0] test/number_theory/1090.json gen= 4534 prompt=  4201 turns= 1 forced=1 OK  pred='202' gold='202' 74s
+[twin_asym s0] test/number_theory/1090.json gen= 2585 prompt= 29048 turns=13 forced=0 OK  pred='202' gold='202' 125s
+[single    s0] test/algebra/2043.json       gen= 2972 prompt=  2376 turns= 1 forced=0 OK  pred='(-\\infty, 2) \\cup (3, \\in' gold='(-\\infty, 2) \\cup (3, \\in' 60s
+[twin_asym s0] test/algebra/2043.json       gen= 1287 prompt=  5338 turns= 7 forced=0 OK  pred='(-\\infty, 2) \\cup (3, \\in' gold='(-\\infty, 2) \\cup (3, \\in' 50s
+[single    s0] test/precalculus/703.json    gen= 4704 prompt=  4259 turns= 1 forced=1 OK  pred='8\\pi' gold='8 \\pi' 75s
+[twin_asym s0] test/precalculus/703.json    gen= 3995 prompt= 46968 turns=14 forced=0 OK  pred='8\\pi' gold='8 \\pi' 92s
+done
+4 problems x ['single', 'twin_asym'] x seeds [0]: 8 jobs to run (0 done)
+[single    s0] test/intermediate_algebra/183.json gen= 2062 prompt=    94 turns= 1 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 33s
+[twin_asym s0] test/intermediate_algebra/183.json gen= 2212 prompt= 11766 turns= 7 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 40s
+[single    s0] test/number_theory/1090.json gen= 1022 prompt=    94 turns= 1 forced=0 OK  pred='202' gold='202' 16s
+[single    s0] test/algebra/2043.json       gen=  669 prompt=    75 turns= 1 forced=0 OK  pred='(-\\infty, 2) \\cup (3, \\in' gold='(-\\infty, 2) \\cup (3, \\in' 13s
+[twin_asym s0] test/number_theory/1090.json gen= 1038 prompt=  8267 turns= 9 forced=0 OK  pred='202' gold='202' 51s
+[twin_asym s0] test/algebra/2043.json       gen=  766 prompt=  5006 turns= 7 forced=0 OK  pred='(-\\infty, 2) \\cup (3, \\in' gold='(-\\infty, 2) \\cup (3, \\in' 35s
+[single    s0] test/precalculus/703.json    gen= 1646 prompt=   123 turns= 1 forced=0 XX  pred='9\\pi' gold='8 \\pi' 29s
+[twin_asym s0] test/precalculus/703.json    gen= 1572 prompt=  8337 turns= 6 forced=0 OK  pred='8\\pi' gold='8 \\pi' 27s
+done

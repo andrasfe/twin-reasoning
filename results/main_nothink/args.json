@@ -1,0 +1,20 @@
+{
+ "data": "data/raw/math500_test.jsonl",
+ "level": "5",
+ "n": 50,
+ "shuffle_seed": 0,
+ "conds": "single,twin_asym,twin_sym",
+ "seeds": "0,1,2",
+ "think_tokens": 2500,
+ "answer_tokens": 1000,
+ "think": false,
+ "step_min": 60,
+ "step_max": 400,
+ "max_turns": 60,
+ "temp_a": 0.7,
+ "temp_b": 0.7,
+ "temp_answer": 0.3,
+ "tags": true,
+ "workers": 2,
+ "out": "results/main_nothink"
+}

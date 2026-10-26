@@ -1,0 +1,14 @@
+2 problems x ['s_challenge', 's_summary', 'x_summary', 'x_critique'] x seeds [0]: 8 jobs to run (0 done)
+[s_summary  s0] test/intermediate_algebra/183.json gen= 4766 prompt= 91559 turns=11 forced=0 XX  pred='[2, \\infty)' gold='(2,\\infty)' 221s A=0 B=0 agree=1 ins=15
+[s_challenge s0] test/intermediate_algebra/183.json gen= 7284 prompt=120601 turns=10 forced=1 OK  pred='(2, \\infty) ' gold='(2,\\infty)' 243s A=1 B=0 agree=0 ins=17
+[retry 18:05:03 attempt 1] HTTP 400: {"error":"Error in iterating prediction stream: StopIteration: "}
+[retry 18:05:10 attempt 2] HTTP 400: {"error":"The model has crashed without additional information. (Exit code: null)"}
+[retry 18:05:10 attempt 1] HTTP 400: {"error":"The model has crashed without additional information. (Exit code: null)"}
+[watchdog 18:05:12] model not loaded; running: /Users/andraslferenczi/.lmstudio/bin/lms load qwen3.6-35b-a3b-mlx --identifier twin -c 16384 --parallel 4 --ttl 360000 -y
+[x_summary  s0] test/intermediate_algebra/183.json gen= 6573 prompt= 95653 turns=10 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 179s A=1 B=1 agree=1 ins=17
+[x_critique s0] test/intermediate_algebra/183.json gen= 6777 prompt=106164 turns=10 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 215s A=0 B=1 agree=0 ins=17
+[s_challenge s0] test/number_theory/1090.json   gen= 4956 prompt= 80638 turns=11 forced=0 OK  pred='202' gold='202' 228s A=1 B=1 agree=1 ins=11
+[s_summary  s0] test/number_theory/1090.json   gen= 5078 prompt= 84815 turns=10 forced=0 OK  pred='202' gold='202' 197s A=1 B=1 agree=1 ins=15
+[x_critique s0] test/number_theory/1090.json   gen= 2851 prompt= 37547 turns= 5 forced=0 OK  pred='202' gold='202' 89s A=1 B=1 agree=1 ins=8
+[x_summary  s0] test/number_theory/1090.json   gen= 3546 prompt= 46194 turns= 6 forced=0 OK  pred='202' gold='202' 116s A=1 B=1 agree=1 ins=9
+done

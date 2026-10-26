@@ -1,0 +1,295 @@
+50 problems x ['single', 'twin_asym', 'twin_sym'] x seeds [0, 1, 2]: 450 jobs to run (0 done)
+[single    s1] test/intermediate_algebra/183.json gen= 1922 prompt=    94 turns= 1 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 28s
+[single    s0] test/intermediate_algebra/183.json gen= 2508 prompt=  2697 turns= 1 forced=1 XX  pred='[2, \\infty)' gold='(2,\\infty)' 37s
+[single    s2] test/intermediate_algebra/183.json gen= 2558 prompt=  2697 turns= 1 forced=1 XX  pred='[2, \\infty)' gold='(2,\\infty)' 40s
+[twin_asym s1] test/intermediate_algebra/183.json gen= 2444 prompt= 15571 turns= 9 forced=0 OK  pred='(2, \\infty)' gold='(2,\\infty)' 95s
+[twin_asym s2] test/intermediate_algebra/183.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(2,\\infty)' 0s
+[twin_asym s0] test/intermediate_algebra/183.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(2,\\infty)' 0s
+[twin_sym  s0] test/intermediate_algebra/183.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(2,\\infty)' 0s
+[twin_sym  s1] test/intermediate_algebra/183.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(2,\\infty)' 0s
+[single    s0] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_sym  s2] test/intermediate_algebra/183.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(2,\\infty)' 0s
+[single    s1] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[single    s2] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_asym s1] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_asym s0] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_sym  s0] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_asym s2] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_sym  s1] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[twin_sym  s2] test/number_theory/1090.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='202' 0s
+[single    s0] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[single    s1] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[single    s2] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_asym s0] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_asym s1] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_asym s2] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_sym  s1] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_sym  s0] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[twin_sym  s2] test/algebra/2043.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\infty, 2) \\cup (3, \\in' 0s
+[single    s0] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[single    s1] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[single    s2] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_asym s0] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_asym s1] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_asym s2] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_sym  s0] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_sym  s1] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[twin_sym  s2] test/precalculus/703.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8 \\pi' 0s
+[single    s1] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[single    s0] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[twin_asym s0] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[single    s2] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[twin_asym s1] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[twin_asym s2] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[twin_sym  s0] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[twin_sym  s1] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[single    s0] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_sym  s2] test/intermediate_algebra/158.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='27648' 0s
+[single    s1] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[single    s2] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_asym s1] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_asym s0] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_sym  s0] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_asym s2] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_sym  s1] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[twin_sym  s2] test/prealgebra/1297.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='9' 0s
+[single    s0] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[single    s1] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[single    s2] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_asym s0] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_asym s1] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_asym s2] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_sym  s0] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_sym  s1] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[twin_sym  s2] test/number_theory/737.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='284' 0s
+[single    s0] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[single    s1] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[single    s2] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_asym s1] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_asym s0] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_asym s2] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_sym  s0] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_sym  s2] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[twin_sym  s1] test/prealgebra/1640.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='32' 0s
+[single    s0] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[single    s1] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[single    s2] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[twin_asym s0] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[twin_asym s2] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[twin_asym s1] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[twin_sym  s1] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[twin_sym  s0] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[single    s0] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_sym  s2] test/number_theory/838.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='6' 0s
+[single    s1] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[single    s2] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_asym s1] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_asym s0] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_asym s2] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_sym  s0] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_sym  s1] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[twin_sym  s2] test/intermediate_algebra/1354.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{1997}{2}' 0s
+[single    s0] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[single    s1] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[single    s2] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_asym s0] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_asym s1] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_asym s2] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_sym  s1] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_sym  s0] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[twin_sym  s2] test/intermediate_algebra/1462.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='331' 0s
+[single    s0] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[single    s1] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[single    s2] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_asym s1] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_asym s0] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_asym s2] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_sym  s0] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_sym  s1] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[twin_sym  s2] test/intermediate_algebra/558.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(3,4]' 0s
+[single    s0] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[single    s1] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[single    s2] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_asym s0] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_asym s2] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_asym s1] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_sym  s1] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_sym  s0] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[twin_sym  s2] test/intermediate_algebra/1806.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{4}' 0s
+[single    s0] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[single    s2] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[single    s1] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_asym s1] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_asym s0] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_sym  s0] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_asym s2] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_sym  s2] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[twin_sym  s1] test/prealgebra/951.json     gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12' 0s
+[single    s1] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[single    s0] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[single    s2] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[twin_asym s0] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[twin_asym s2] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[twin_asym s1] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[twin_sym  s0] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[twin_sym  s1] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[single    s0] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_sym  s2] test/algebra/1282.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='11' 0s
+[single    s1] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[single    s2] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_asym s0] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_asym s1] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_asym s2] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_sym  s0] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_sym  s2] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[twin_sym  s1] test/algebra/686.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='4' 0s
+[single    s0] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[single    s1] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[single    s2] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_asym s0] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_asym s1] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_asym s2] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_sym  s1] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_sym  s0] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[twin_sym  s2] test/prealgebra/1961.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{16}{27}' 0s
+[single    s0] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[single    s1] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[single    s2] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_asym s0] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_asym s1] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_asym s2] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_sym  s0] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_sym  s1] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[twin_sym  s2] test/algebra/2193.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='x=5' 0s
+[single    s0] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[single    s1] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[single    s2] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_asym s0] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_asym s2] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_asym s1] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_sym  s0] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_sym  s1] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[twin_sym  s2] test/algebra/2626.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\$32,\\!348' 0s
+[single    s0] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[single    s1] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[single    s2] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_asym s0] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_asym s1] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_asym s2] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_sym  s0] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_sym  s1] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[twin_sym  s2] test/geometry/183.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='145^\\circ' 0s
+[single    s1] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[single    s0] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[single    s2] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[twin_asym s0] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[twin_asym s1] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[twin_asym s2] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[twin_sym  s0] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[twin_sym  s1] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[single    s0] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_sym  s2] test/geometry/711.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1+2\\sqrt{3}' 0s
+[single    s1] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[single    s2] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_asym s0] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_asym s1] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_asym s2] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_sym  s0] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_sym  s1] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[twin_sym  s2] test/algebra/291.json        gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{2}{3}' 0s
+[single    s0] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s1] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s0] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s2] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s2] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s1] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s0] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s1] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s0] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s2] test/prealgebra/1251.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s2] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s1] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s0] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s1] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s0] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_asym s2] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s2] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[twin_sym  s1] test/number_theory/820.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='8' 0s
+[single    s1] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[single    s0] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[twin_asym s0] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[single    s2] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[twin_asym s1] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[twin_asym s2] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[twin_sym  s1] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[twin_sym  s0] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[single    s0] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_sym  s2] test/prealgebra/1930.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='7' 0s
+[single    s1] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[single    s2] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_asym s1] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_asym s0] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_sym  s0] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_asym s2] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_sym  s1] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[twin_sym  s2] test/intermediate_algebra/662.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1 \\pm \\sqrt{19}' 0s
+[single    s0] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[single    s1] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[single    s2] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_asym s0] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_asym s1] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_asym s2] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_sym  s0] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_sym  s1] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[twin_sym  s2] test/prealgebra/1423.json    gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='12\\pi' 0s
+[single    s0] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[single    s1] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[single    s2] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_asym s1] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_asym s0] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_asym s2] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_sym  s0] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_sym  s2] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[twin_sym  s1] test/number_theory/427.json  gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='25' 0s
+[single    s1] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[single    s0] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_asym s0] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[single    s2] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_asym s1] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_asym s2] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_sym  s0] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_sym  s1] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[twin_sym  s2] test/counting_and_probability/216.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='1940' 0s
+[single    s0] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[single    s1] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[single    s2] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_asym s0] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_asym s1] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_asym s2] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_sym  s0] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_sym  s2] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[twin_sym  s1] test/algebra/1078.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='(-\\sqrt{3}, \\sqrt{3})' 0s
+[single    s0] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[single    s1] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_asym s0] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[single    s2] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_asym s2] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_asym s1] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_sym  s1] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_sym  s0] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[twin_sym  s2] test/counting_and_probability/51.json gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='\\frac{13}{18}' 0s
+[single    s0] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[single    s2] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[single    s1] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_asym s1] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_asym s0] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_asym s2] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_sym  s0] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_sym  s2] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[twin_sym  s1] test/geometry/965.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='28' 0s
+[single    s0] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s
+[single    s1] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s
+[twin_asym s0] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s
+[single    s2] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s
+[twin_asym s2] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s
+[twin_asym s1] test/geometry/702.json       gen=    0 prompt=     0 turns= 0 forced=1 XX  pred='None' gold='160' 0s

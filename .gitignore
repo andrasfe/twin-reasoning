@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.DS_Store
+*.bak
+# beads boilerplate, not part of the experiment
+.claude/
+AGENTS.md
+CLAUDE.md
+# pre-edit backups of source files
+scratch/*_before_*

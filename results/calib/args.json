@@ -1,0 +1,20 @@
+{
+ "data": "data/raw/math500_test.jsonl",
+ "level": "5",
+ "n": 4,
+ "shuffle_seed": 0,
+ "conds": "single,twin_asym",
+ "seeds": "0",
+ "think_tokens": 4000,
+ "answer_tokens": 1000,
+ "think": true,
+ "step_min": 60,
+ "step_max": 400,
+ "max_turns": 60,
+ "temp_a": 0.7,
+ "temp_b": 0.7,
+ "temp_answer": 0.3,
+ "tags": true,
+ "workers": 2,
+ "out": "results/calib"
+}
